@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use aeon-jurist, please cite it as below."
+type: software
+title: "aeon-jurist: AI-Assisted Legal Personhood Classification (GenesisAeon P55)"
+version: "0.1.0"
+date-released: "2026-07-26"
+authors:
+  - family-names: Römer
+    given-names: Johann
+    affiliation: "MOR Research Collective"
+repository-code: "https://github.com/GenesisAeon/aeon-jurist"
+license: MIT
+keywords:
+  - legal-personhood
+  - TF-IDF
+  - ecological-rights
+  - CREP
+  - GenesisAeon
+references:
+  - type: legal-ruling
+    title: "Te Awa Tupua (Whanganui River Claims Settlement) Act 2017"
+    notes: "New Zealand statute granting the Whanganui River legal personhood."
+  - type: legal-ruling
+    title: "Constitutional Court of Colombia, Judgment T-622 of 2016"
+    notes: "Recognized the Atrato River as a subject of rights."
