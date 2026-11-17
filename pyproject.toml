@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "aeon-jurist"
 version = "0.2.0"
-description = "AI-assisted legal personhood classification for ecological and AI entities (GenesisAeon P55)"
+description = "A map, not a verdict: sourced legal cases on personhood and rights for nature, animals and AI (GenesisAeon P55)"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Römer, Johann", email = "joberoemer@gmail.com" }]
