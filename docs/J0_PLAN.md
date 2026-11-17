@@ -82,3 +82,8 @@ Vergleichsfälle (nichtmenschliche, nicht-natürliche Personen):
 1. Passt der Grundsatz „Landkarte statt Urteil“, also keine P0/P1/P2-Stufe mehr als Hauptausgabe?
 2. Sollen Tierrechtsfälle hinein? Sie sind für KI als Analogie (Interessen ohne Handlungsfähigkeit) sehr aufschlussreich.
 3. Soll J3 auch auf Deutsch geschrieben werden, oder genügt Englisch wie im Code?
+
+## Entscheidungen Johann (17.11.2026)
+1. „Landkarte statt Urteil“: ja.
+2. Tierrechtsfälle: ja, aufnehmen.
+3. J3: auf **Englisch** (zuerst Deutsch gewünscht, dann umentschieden).
