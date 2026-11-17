@@ -1,6 +1,6 @@
 # J1: Fallsammlung (Stand 17.11.2026)
 
-Daten: [`data/precedents_v2.json`](../data/precedents_v2.json). Tests: [`tests/test_precedents_v2.py`](../tests/test_precedents_v2.py). Nur Fälle mit an der Quelle gelesenem Wortlaut sind Datensätze; der Rest steht unter „Kandidaten“. Kein Rechtsrat.
+Daten: [`src/aeon_jurist/data/precedents_v2.json`](../src/aeon_jurist/data/precedents_v2.json). Tests: [`tests/test_precedents_v2.py`](../tests/test_precedents_v2.py). Nur Fälle mit an der Quelle gelesenem Wortlaut sind Datensätze; der Rest steht unter „Kandidaten“. Kein Rechtsrat.
 
 ## 12 Datensätze
 

@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-DATA = json.loads((Path(__file__).resolve().parents[1] / "data" / "precedents_v2.json").read_text(encoding="utf-8"))
+DATA = json.loads((Path(__file__).resolve().parents[1] / "src" / "aeon_jurist" / "data" / "precedents_v2.json").read_text(encoding="utf-8"))
 W = DATA["werte"]
 CRITERIA = {"K-INT", "K-REP", "K-STA", "K-DUT", "K-CUL", "K-AGN"}
 
