@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] (J5, local)
+## [0.3.0] - 2026-11-17
 
 - Case collection: Los Cedros (Ecuador Constitutional Court 1149-19-JP/21, 2021) added from the full judgment; Mar Menor entry records the Constitutional Court's confirmation (STC 142/2024). 13 cases, 4 candidates.
 - Candidate notes corrected: Sandra 2014 (habeas rejected), Happy (wrong secondary link flagged).

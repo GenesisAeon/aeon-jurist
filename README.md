@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24311274.svg)](https://doi.org/10.5281/zenodo.24311274) [![PyPI](https://img.shields.io/pypi/v/aeon-jurist)](https://pypi.org/project/aeon-jurist/)
 
-> **v0.2.0: a map, not a verdict.** The recommended entry point is now
+> **v0.3.0: a map, not a verdict.** The recommended entry point is now
 > `landscape(entity)`: sourced legal cases on personhood and rights for
 > rivers, ecosystems, animals and AI, with their outcome, present status
 > and check depth. It never assigns a protection level. The v0.1 keyword
@@ -14,7 +14,7 @@
 > # Cases exist, but none granted legal personhood or rights.
 > ```
 >
-> - 12 cases, each read at its primary source: `docs/J1_PRECEDENTS.md`
+> - 13 cases, each read at its primary source: `docs/J1_PRECEDENTS.md`
 > - What carried the granted cases, and what could transfer to AI:
 >   `docs/J3_PRECEDENT_PATH.md`, `docs/J3B_GUARDIANS_AND_EVIDENCE.md`
 > - Purpose, stated openly: to explore an honest path towards personality
@@ -74,6 +74,6 @@ from the same `unified-mandala` archaeology sprint that produced
 ## Not legal advice
 
 This is a research tool. `landscape()` summarises a small, sourced case
-collection (12 cases, plus candidates that are not yet verified); the
+collection (13 cases, plus candidates that are not yet verified); the
 legacy classifier uses 3 seed cases. Neither is a legal opinion or a
 prediction of how any court or legislature would decide.

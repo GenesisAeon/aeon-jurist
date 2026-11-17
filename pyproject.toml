@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aeon-jurist"
-version = "0.2.0"
+version = "0.3.0"
 description = "A map, not a verdict: sourced legal cases on personhood and rights for nature, animals and AI (GenesisAeon P55)"
 readme = "README.md"
 license = { text = "MIT" }
