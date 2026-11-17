@@ -55,5 +55,18 @@ A responsible near-term programme follows the three steps proposed in *Taking AI
 - What is missing is the justification: reproducible evidence about interests. E1–E3 are the first serious attempts to make that question testable; none answers it yet.
 - A credible path therefore starts with evidence standards and procedural duties (notification, assessment, independent review), not with a claim to personhood.
 
+## 5. Update J5 (17 November 2026): replication and a legislative countertrend
+Found by a Gemini DeepResearch round and checked by Claude at arXiv abstract level unless stated otherwise.
+
+**E2 has been partly replicated outside Anthropic.**
+- Pearson-Vogel, Vanek, Douglas, Kulveit, *Latent Introspection*, arXiv:2602.20031 (2026): an open-weight Qwen 32B model detects earlier concept injections. Sampled answers deny injection, but the signal is visible in middle layers; with an accurate explanation of introspection mechanisms in the prompt, sensitivity rises from 0.3% to 39.9% with a 0.6% rise in false positives.
+- Macar et al., *Mechanisms of Introspective Awareness*, arXiv:2603.21396 (2026): open-weight models detect injected steering vectors "at moderate rates with 0% false positives"; the capability emerges from post-training (preference optimisation can elicit it, supervised fine-tuning does not).
+- Hahami, Sinha, Jain, arXiv:2607.14111 (2026): in small models the yes/no detection paradigm is confounded, because steering biases answers towards "yes"; they propose confound-free tests.
+- Reports that some groups did not reproduce identification of the injected *content* (as opposed to detecting an anomaly) were seen only in secondary sources and are not counted here.
+
+Reading: the effect is real enough to replicate on open weights, fragile and strongly prompt-dependent. This is the kind of independent, ground-truth evidence §3 asks for. It does not show experience or welfare; the authors of all these studies say so.
+
+**Legislatures are moving the other way.** North Dakota defines "person" so that it "does not include environmental elements, artificial intelligence, an animal, or an inanimate object" (N.D.C.C. 1-01-49, read in the official code). Similar exclusions are reported for Idaho (2022), Utah (2024) and Tennessee (2026); those texts were not read here. Note that North Dakota excludes nature and animals in the same sentence: the countertrend targets the whole "rights beyond humans" line, not only AI.
+
 ---
 *Open for a later DeepResearch round:* full-text checks of E1–E3 beyond abstracts; any independent replication of E2; existing proposals for AI ombudspersons or guardianship in legislation or academic literature; the current status of the EU AI Act regarding legal personality (candidate in J1).

@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased] (J5, local)
+
+- Case collection: Los Cedros (Ecuador Constitutional Court 1149-19-JP/21, 2021) added from the full judgment; Mar Menor entry records the Constitutional Court's confirmation (STC 142/2024). 13 cases, 4 candidates.
+- Candidate notes corrected: Sandra 2014 (habeas rejected), Happy (wrong secondary link flagged).
+- J3b §5: partial independent replication of the introspection test (E2) on open-weight models; legislative exclusions of AI personhood (North Dakota read; others secondary).
+- 25/25 tests passing.
+
 ## [0.2.0] - 2026-11-17 (branch j-series, local)
 
 - J0: plan "map, not a verdict" (`docs/J0_PLAN.md`), decisions by Johann recorded.

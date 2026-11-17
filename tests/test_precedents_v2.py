@@ -56,3 +56,13 @@ def test_nature_cases_do_not_require_agency():
     for f in DATA["faelle"]:
         if f["ausgang"] == "gewaehrt":
             assert f["kriterien"]["K-AGN"] == "nein", f["id"]
+
+
+def test_j5_los_cedros_and_mar_menor_court_confirmation():
+    cand = {c["id"] for c in DATA["kandidaten"]}
+    assert by_id("EC-LOSCEDROS-2021")["prueftiefe"] == "volltext"
+    assert by_id("EC-LOSCEDROS-2021")["kriterien"]["K-AGN"] == "nein"
+    assert "142/2024" in by_id("ES-MM-2022")["anmerkung"]
+    assert not {"EC-LOSCEDROS-2021", "ES-MM-TC"} & cand
+    # Sandra stays overturned despite secondary claims to the contrary
+    assert by_id("AR-SANDRA-2015")["status_heute"] == "aufgehoben"

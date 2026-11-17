@@ -2,7 +2,7 @@
 
 Daten: [`src/aeon_jurist/data/precedents_v2.json`](../src/aeon_jurist/data/precedents_v2.json). Tests: [`tests/test_precedents_v2.py`](../tests/test_precedents_v2.py). Nur Fälle mit an der Quelle gelesenem Wortlaut sind Datensätze; der Rest steht unter „Kandidaten“. Kein Rechtsrat.
 
-## 12 Datensätze
+## 13 Datensätze (J5: Los Cedros ergänzt)
 
 | ID | Fall | Entität | Ausgang | Status heute | Prüftiefe |
 |---|---|---|---|---|---|
@@ -10,7 +10,8 @@ Daten: [`src/aeon_jurist/data/precedents_v2.json`](../src/aeon_jurist/data/prece
 | NZ-TAT-2017 | Te Awa Tupua Act 2017, s 14 | Fluss | gewährt | in Kraft | Volltext (Kopie) |
 | CO-T622-2016 | Corte Constitucional T-622/16 (Atrato) | Fluss | gewährt | in Kraft | Volltext (Kopie) |
 | EC-CONST-2008 | Verfassung Ecuador, Art. 71 | Natur | gewährt (Rechte, nicht „Person“) | in Kraft | Übersetzung |
-| ES-MM-2022 | Ley 19/2022 (Mar Menor) | Ökosystem | gewährt | in Kraft | Volltext (BOE) |
+| ES-MM-2022 | Ley 19/2022 (Mar Menor); bestätigt durch STC 142/2024 | Ökosystem | gewährt | in Kraft | Volltext (BOE) |
+| EC-LOSCEDROS-2021 | Corte Constitucional 1149-19-JP/21 (Los Cedros) | Ökosystem | gewährt (Rechte angewandt) | in Kraft | Volltext |
 | IN-GY-2017 | Uttarakhand HC, Ganga und Yamuna | Fluss | gewährt | **ausgesetzt** | Volltext (Kopie); Stay nur sekundär |
 | UK-DABUS-2023 | [2023] UKSC 49 | KI | abgelehnt | in Kraft | Volltext |
 | US-DABUS-2022 | Thaler v. Vidal (Fed. Cir.) | KI | abgelehnt | in Kraft | Volltext |
@@ -27,8 +28,13 @@ Daten: [`src/aeon_jurist/data/precedents_v2.json`](../src/aeon_jurist/data/prece
 5. **Die EP-Entschließung 2017** begründet eine mögliche „elektronische Person“ mit **Haftung** (K-DUT) und Autonomie (K-AGN), nicht mit eigenen Interessen.
 6. **Bei allen gewährten Naturfällen** tragen Interessen, Vertretung und meist eine kulturelle oder religiöse Begründung. Handlungsfähigkeit spielt **nie** eine Rolle. Das ist die Asymmetrie, auf der J3 aufbaut; ein Test sichert sie ab.
 
+## J5-Nachtrag (17.11.2026, nach Gemini-DeepResearch, von Claude selbst nachgeprüft)
+7. **Mar Menor:** Das Verfassungsgericht hat das Gesetz bestätigt (STC 142/2024, 20.11.2024, Klage von Vox „desestimar íntegramente“; BOE gelesen).
+8. **Los Cedros:** Die Corte Constitucional wendet die Rechte der Natur auf einen konkreten Wald an (10.11.2021, 7:2; Rn. 35 „plena fuerza normativa“; Urteil gelesen).
+9. **Gemini lag bei Sandra falsch** („rechtskräftig anerkannt“). Es bleibt bei der Aufhebung 2016. Die Casación 2014 wies den Habeas-Antrag ab.
+
 ## Kandidaten (noch ohne gelesene Primärquelle)
-Elefantin Happy (NY 2022), Casación Penal zu Sandra (2014), Los Cedros (Ecuador 2021), spanisches Verfassungsgericht zum Mar Menor, AI Act 2024 (keine Rechtspersönlichkeit), „Sophia“ (Saudi-Arabien, vermutlich nur symbolisch).
+Elefantin Happy (NY 2022; nycourts blockt, sekundär: abgewiesen 5:2), Casación Penal zu Sandra (2014; Habeas abgewiesen), AI Act 2024 (keine Rechtspersönlichkeit; EUR-Lex blockt), „Sophia“ (Saudi-Arabien; kein Rechtsakt bekannt, vermutlich nur symbolisch).
 
 ## Zugangsgrenzen
 legislation.govt.nz, nzlii.org, corteconstitucional.gov.co, europarl.europa.eu, eur-lex, nycourts.gov und bailii blockten automatisierte Abrufe (403 bzw. 202). Wo möglich wurden amtliche Texte über Spiegel gelesen (FAOLEX, JEP, ELAW, Eco Jurisprudence Monitor, QMUL); das steht als „Kopie“ in der Prüftiefe.
