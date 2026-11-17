@@ -3,6 +3,7 @@ message: "If you use aeon-jurist, please cite it as below."
 type: software
 title: "aeon-jurist: A Map of Sourced Legal Personhood Cases for Nature, Animals and AI (GenesisAeon P55)"
 version: "0.2.0"
+doi: "10.5281/zenodo.24311274"
 date-released: "2026-11-17"
 authors:
   - family-names: Römer
