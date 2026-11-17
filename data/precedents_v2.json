@@ -1,0 +1,153 @@
+{
+  "schema": "aeon-jurist precedents v2 (J1)",
+  "stand": "2026-11-17",
+  "hinweis": "Jeder Datensatz wurde an der genannten Quelle gelesen. 'prueftiefe' sagt wie. Kandidaten ohne gelesene Primaerquelle stehen getrennt unter 'kandidaten'. Kein Rechtsrat.",
+  "werte": {
+    "ausgang": ["gewaehrt", "abgelehnt", "vorgeschlagen", "aufgehoben", "offen"],
+    "status_heute": ["in_kraft", "ausgesetzt", "aufgehoben", "nicht_umgesetzt", "unbekannt"],
+    "kriterium": ["ja", "nein", "strittig", "nicht_geprueft"],
+    "prueftiefe": ["volltext", "volltext_kopie", "volltext_uebersetzung", "auszug", "sekundaer"]
+  },
+  "faelle": [
+    {
+      "id": "NZ-TU-2014",
+      "titel": "Te Urewera Act 2014, s 11",
+      "jurisdiktion": "Neuseeland", "jahr": 2014, "entitaetstyp": "oekosystem",
+      "rechtsquelle": "gesetz", "ausgang": "gewaehrt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "ja", "K-REP": "ja", "K-STA": "ja", "K-DUT": "ja", "K-CUL": "ja", "K-AGN": "nein"},
+      "zitat": "Te Urewera is a legal entity, and has all the rights, powers, duties, and liabilities of a legal person. (s 11(1)); rights … must be exercised … on behalf of, and in the name of, Te Urewera … by Te Urewera Board (s 11(2))",
+      "primaerquelle": {"url": "https://faolex.fao.org/docs/pdf/nze159972.pdf", "art": "amtlicher Gesetzestext (FAOLEX-Kopie)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "legislation.govt.nz blockte den Abruf (403/202). Konsolidierungsstand der Kopie nicht ausgewiesen."
+    },
+    {
+      "id": "NZ-TAT-2017",
+      "titel": "Te Awa Tupua (Whanganui River Claims Settlement) Act 2017, s 14",
+      "jurisdiktion": "Neuseeland", "jahr": 2017, "entitaetstyp": "fluss",
+      "rechtsquelle": "gesetz", "ausgang": "gewaehrt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "ja", "K-REP": "ja", "K-STA": "ja", "K-DUT": "ja", "K-CUL": "ja", "K-AGN": "nein"},
+      "zitat": "Te Awa Tupua is a legal person and has all the rights, powers, duties, and liabilities of a legal person. … must be exercised or performed … by Te Pou Tupua on behalf of, and in the name of, Te Awa Tupua (s 14)",
+      "primaerquelle": {"url": "https://ecojurisprudence.org/wp-content/uploads/2022/02/New-Zealand_Te-Awa-Tupua-Act-2017_127.pdf", "art": "amtlicher Nachdruck 'Reprint as at 30 January 2021' (Kopie)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Assent 20.03.2017. legislation.govt.nz blockte den Direktabruf."
+    },
+    {
+      "id": "CO-T622-2016",
+      "titel": "Corte Constitucional, Sentencia T-622/16 (Rio Atrato)",
+      "jurisdiktion": "Kolumbien", "jahr": 2016, "entitaetstyp": "fluss",
+      "rechtsquelle": "gericht", "ausgang": "gewaehrt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "ja", "K-REP": "ja", "K-STA": "nicht_geprueft", "K-DUT": "nein", "K-CUL": "ja", "K-AGN": "nein"},
+      "zitat": "CUARTO.- RECONOCER al río Atrato, su cuenca y afluentes como una entidad sujeto de derechos a la protección, conservación, mantenimiento y restauración a cargo del Estado y las comunidades étnicas",
+      "primaerquelle": {"url": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/t-622_2016.htm", "art": "Urteilstext (Normograma der JEP, staatliche Stelle)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "corteconstitucional.gov.co blockte (403). Vertretung: Ordnung des Urteils (Vertreter/Hüter); Umsetzung u. a. Dekret 1148/2017 (nicht selbst gelesen). Pflichten des Flusses selbst: keine."
+    },
+    {
+      "id": "EC-CONST-2008",
+      "titel": "Constitución de la República del Ecuador 2008, Art. 71",
+      "jurisdiktion": "Ecuador", "jahr": 2008, "entitaetstyp": "natur_allgemein",
+      "rechtsquelle": "verfassung", "ausgang": "gewaehrt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "ja", "K-REP": "ja", "K-STA": "ja", "K-DUT": "nein", "K-CUL": "ja", "K-AGN": "nein"},
+      "zitat": "Nature, or Pacha Mama, where life is reproduced and occurs, has the right to integral respect for its existence … All persons, communities, peoples and nations can call upon public authorities to enforce the rights of nature.",
+      "primaerquelle": {"url": "https://pdba.georgetown.edu/Constitutions/Ecuador/english08.html", "art": "englische Übersetzung (Political Database of the Americas)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_uebersetzung",
+      "anmerkung": "Rechte der Natur, ausdrücklich nicht als 'juristische Person' formuliert. Spanischer Originaltext nicht selbst gelesen (OAS-Kopie 403)."
+    },
+    {
+      "id": "ES-MM-2022",
+      "titel": "Ley 19/2022 (Mar Menor)",
+      "jurisdiktion": "Spanien", "jahr": 2022, "entitaetstyp": "oekosystem",
+      "rechtsquelle": "gesetz", "ausgang": "gewaehrt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "ja", "K-REP": "ja", "K-STA": "ja", "K-DUT": "nein", "K-CUL": "nein", "K-AGN": "nein"},
+      "zitat": "Artículo 1. Se declara la personalidad jurídica de la laguna del Mar Menor y de su cuenca, que se reconoce como sujeto de derechos. … Artículo 6. Cualquier persona física o jurídica está legitimada para la defensa del ecosistema del Mar Menor …",
+      "primaerquelle": {"url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-16019", "art": "BOE, konsolidierter Text", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext",
+      "anmerkung": "Vertretung: 'Tutoría del Mar Menor' aus Comité de Representantes, Comisión de Seguimiento, Comité Científico. Ein späteres Verfassungsgerichtsurteil ist Kandidat, nicht geprüft."
+    },
+    {
+      "id": "IN-GY-2017",
+      "titel": "Uttarakhand High Court, Mohd. Salim v. State of Uttarakhand (Ganga und Yamuna)",
+      "jurisdiktion": "Indien", "jahr": 2017, "entitaetstyp": "fluss",
+      "rechtsquelle": "gericht", "ausgang": "gewaehrt", "status_heute": "ausgesetzt",
+      "kriterien": {"K-INT": "ja", "K-REP": "ja", "K-STA": "ja", "K-DUT": "ja", "K-CUL": "ja", "K-AGN": "nein"},
+      "zitat": "… declared as juristic/legal persons/living entities having the status of a legal person with all corresponding rights, duties and liabilities of a living person … declared persons in loco parentis as the human face to protect … Rivers Ganga and Yamuna",
+      "primaerquelle": {"url": "https://elaw.org/wp-content/uploads/archive/attachments/publicresource/in_Salim__riverpersonhood_2017.pdf", "art": "Urteil vom 20.03.2017 (Kopie)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Status 'ausgesetzt': Supreme Court Stay vom 07.07.2017, belegt nur über LiveLaw-Bericht (sekundär). Laut ELAW Berufung unentschieden. Begründung stützt sich auf die Analogie zur Hindu-Gottheit als juristische Person."
+    },
+    {
+      "id": "UK-DABUS-2023",
+      "titel": "Thaler v Comptroller-General of Patents [2023] UKSC 49",
+      "jurisdiktion": "Vereinigtes Königreich", "jahr": 2023, "entitaetstyp": "ki",
+      "rechtsquelle": "gericht", "ausgang": "abgelehnt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "nicht_geprueft", "K-REP": "nicht_geprueft", "K-STA": "nicht_geprueft", "K-DUT": "nicht_geprueft", "K-CUL": "nein", "K-AGN": "nein"},
+      "zitat": "an inventor within the meaning of the 1977 Act must be a natural person, and DABUS is not a person at all, let alone a natural person (para 56)",
+      "primaerquelle": {"url": "https://caselaw.nationalarchives.gov.uk/uksc/2023/49", "art": "Urteilstext (The National Archives)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext",
+      "anmerkung": "Geprüft wurde nur Erfinderschaft (Patentrecht), nicht Rechtspersönlichkeit allgemein."
+    },
+    {
+      "id": "US-DABUS-2022",
+      "titel": "Thaler v. Vidal, No. 21-2347 (Fed. Cir. 2022)",
+      "jurisdiktion": "USA", "jahr": 2022, "entitaetstyp": "ki",
+      "rechtsquelle": "gericht", "ausgang": "abgelehnt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "nicht_geprueft", "K-REP": "nicht_geprueft", "K-STA": "nicht_geprueft", "K-DUT": "nicht_geprueft", "K-CUL": "nein", "K-AGN": "nein"},
+      "zitat": "Here, Congress has determined that only a natural person can be an inventor, so AI cannot be.",
+      "primaerquelle": {"url": "https://cafc.uscourts.gov/opinions-orders/21-2347.OPINION.8-5-2022_1988142.pdf", "art": "Urteil (Court of Appeals for the Federal Circuit)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext",
+      "anmerkung": "Entschieden 05.08.2022."
+    },
+    {
+      "id": "DE-DABUS-2024",
+      "titel": "BGH, Beschluss vom 11. Juni 2024, X ZB 5/22 (DABUS)",
+      "jurisdiktion": "Deutschland", "jahr": 2024, "entitaetstyp": "ki",
+      "rechtsquelle": "gericht", "ausgang": "abgelehnt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "nicht_geprueft", "K-REP": "nicht_geprueft", "K-STA": "nicht_geprueft", "K-DUT": "nicht_geprueft", "K-CUL": "nein", "K-AGN": "nein"},
+      "zitat": "Erfinder im Sinne von § 37 Abs. 1 PatG kann nur eine natürliche Person sein. Ein maschinelles, aus Hard- oder Software bestehendes System kann auch dann nicht als Erfinder benannt werden, wenn es über Funktionen künstlicher Intelligenz verfügt.",
+      "primaerquelle": {"url": "https://itm.nrw/wp-content/uploads/2024/07/bghki.pdf", "art": "Beschlusstext mit Leitsätzen (Kopie)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Ein Mensch, der die KI zur Erfindung veranlasst hat, kann als Erfinder benannt werden; der Zusatz zur KI ist rechtlich unerheblich."
+    },
+    {
+      "id": "US-THALER-2025",
+      "titel": "Thaler v. Perlmutter, No. 23-5233 (D.C. Cir. 2025)",
+      "jurisdiktion": "USA", "jahr": 2025, "entitaetstyp": "ki",
+      "rechtsquelle": "gericht", "ausgang": "abgelehnt", "status_heute": "in_kraft",
+      "kriterien": {"K-INT": "nicht_geprueft", "K-REP": "nicht_geprueft", "K-STA": "nicht_geprueft", "K-DUT": "nicht_geprueft", "K-CUL": "nein", "K-AGN": "nein"},
+      "zitat": "The Creativity Machine cannot be the recognized author of a copyrighted work because the Copyright Act of 1976 requires all eligible work to be authored in the first instance by a human being.",
+      "primaerquelle": {"url": "https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf", "art": "Urteil (D.C. Circuit)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext",
+      "anmerkung": "Entschieden 18.03.2025; Verfassungsfrage ausdrücklich offen gelassen."
+    },
+    {
+      "id": "EU-EP-2017",
+      "titel": "Europäisches Parlament, Entschließung vom 16.02.2017 zu zivilrechtlichen Regelungen im Bereich Robotik (2015/2103(INL)), Ziff. 59 f",
+      "jurisdiktion": "EU", "jahr": 2017, "entitaetstyp": "ki",
+      "rechtsquelle": "parlamentsresolution", "ausgang": "vorgeschlagen", "status_heute": "nicht_umgesetzt",
+      "kriterien": {"K-INT": "nein", "K-REP": "nicht_geprueft", "K-STA": "nicht_geprueft", "K-DUT": "ja", "K-CUL": "nein", "K-AGN": "ja"},
+      "zitat": "creating a specific legal status for robots in the long run, so that at least the most sophisticated autonomous robots could be established as having the status of electronic persons responsible for making good any damage they may cause",
+      "primaerquelle": {"url": "https://www-test.qmul.ac.uk/decentering-human/media/law/docs/research/European-Parliament---Civil-law-rules-on-robotics---2017.pdf", "art": "Texts adopted P8_TA(2017)0051 (Kopie)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Nur Prüfauftrag an die Kommission, Begründung über Haftung (K-DUT) und autonome Entscheidungen (K-AGN), nicht über Interessen. 'Nicht umgesetzt': AI Act 2024 ohne Rechtspersönlichkeit ist Claudes Wissen, in J1 nicht am Verordnungstext geprüft."
+    },
+    {
+      "id": "AR-SANDRA-2015",
+      "titel": "Orang-Utan Sandra: Juzgado CAyT N° 4 CABA, 21.10.2015; Cámara CAyT, 14.06.2016",
+      "jurisdiktion": "Argentinien", "jahr": 2015, "entitaetstyp": "tier",
+      "rechtsquelle": "gericht", "ausgang": "aufgehoben", "status_heute": "aufgehoben",
+      "kriterien": {"K-INT": "ja", "K-REP": "ja", "K-STA": "strittig", "K-DUT": "nein", "K-CUL": "nein", "K-AGN": "nein"},
+      "zitat": "1.Instanz: 'Reconocer a la orangutana Sandra como un sujeto de derecho …' (21.10.2015). Berufung: 'Revocar los puntos 1 y 2 y confirmar lo dispuesto en el punto 3' (14.06.2016)",
+      "primaerquelle": {"url": "https://ecojurisprudence.org/wp-content/uploads/2022/02/Argentina_AFADA-et-al-v.-Buenos-Aires_94.pdf", "art": "Urteil 1. Instanz (Kopie); Berufungsurteil: https://www.animallaw.info/sites/default/files/1 “ASOCIACIÓN DE FUNCIONARIOS …”.pdf (Kopie)", "abgerufen_am": "2026-11-17"},
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Wichtig: Die vielzitierte Anerkennung als 'sujeto de derecho' wurde in der Berufung aufgehoben (Punkt 1). Bestätigt blieben die Pflichten der Stadt zum Wohlergehen (Punkt 3). Das Berufungsgericht verweist auf die Lehrmeinung, es handle sich 'en definitiva' um eine Schutzpflicht des Menschen. Frühere Casación-Penal-Entscheidung 2014 ist Kandidat."
+    }
+  ],
+  "kandidaten": [
+    {"id": "US-HAPPY-2022", "titel": "Nonhuman Rights Project v. Breheny (N.Y. Court of Appeals, 14.06.2022), Elefantin Happy", "stand": "Primärquelle (nycourts.gov) blockte (403). Sekundär übereinstimmend: Habeas corpus für Tiere abgelehnt, 5:2.", "ausgang_vermutet": "abgelehnt"},
+    {"id": "AR-SANDRA-2014", "titel": "Cámara Federal de Casación Penal, Sala II, 18.12.2014 'Orangutana Sandra s/ habeas corpus'", "stand": "Nur als Zitat im Berufungsurteil 2016 gelesen ('según su interpretación … persona no humana'). Tragweite strittig."},
+    {"id": "EC-LOSCEDROS-2021", "titel": "Corte Constitucional del Ecuador, Los Cedros (1149-19-JP/21)", "stand": "nicht abgerufen"},
+    {"id": "ES-MM-TC", "titel": "Spanisches Verfassungsgericht zum Mar-Menor-Gesetz", "stand": "nicht abgerufen; Ausgang nicht behaupten"},
+    {"id": "EU-AIACT-2024", "titel": "Verordnung (EU) 2024/1689 (AI Act): keine Rechtspersönlichkeit für KI", "stand": "Claudes Wissen; Verordnungstext nicht geprüft"},
+    {"id": "SA-SOPHIA-2017", "titel": "'Staatsbürgerschaft' des Roboters Sophia, Saudi-Arabien", "stand": "Keine amtliche Rechtsquelle bekannt; wahrscheinlich nur symbolisch. Nicht aufnehmen ohne amtliche Quelle."}
+  ]
+}
