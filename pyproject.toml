@@ -9,7 +9,7 @@ description = "A map, not a verdict: sourced legal cases on personhood and right
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Römer, Johann", email = "joberoemer@gmail.com" }]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 keywords = [
     "legal-personhood",
     "TF-IDF",
@@ -23,7 +23,6 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]

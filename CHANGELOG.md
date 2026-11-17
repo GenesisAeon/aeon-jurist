@@ -12,6 +12,7 @@
 - J3/J3b: English analysis of what transfers from nature and animal cases to AI, guardian
   models G1-G6 and reproducible evidence questions E1-E5 (law and argument kept separate).
 - The v0.1 subject-keyword level remains available unchanged but is documented as legacy.
+- requires-python raised to >=3.11 (dependency diamond-setup needs 3.11; found by CI).
 - 24/24 tests passing.
 
 ## [0.1.0] - 2026-07-26
