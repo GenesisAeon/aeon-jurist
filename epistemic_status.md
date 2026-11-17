@@ -1,5 +1,16 @@
 # Epistemic Status — aeon-jurist (P55)
 
+## Update v0.2.0 (17 Nov 2026)
+- The flaw described below (level by subject keyword, "ai" always P2) is no longer the
+  recommended behaviour. `landscape()` derives nothing from keywords except which entity
+  types to show, and it never outputs a level. The legacy classifier is unchanged, so its
+  behaviour stays reproducible.
+- Case data now comes from `src/aeon_jurist/data/precedents_v2.json`: only cases whose
+  wording was read at a primary source (or an identified copy of one) are records; check
+  depth is stored per case. Blocked official sites are listed in `docs/J1_PRECEDENTS.md`.
+- The analyses in `docs/J3*.md` separate LAW (sourced) from ARGUMENT (reasoning). They were
+  written by an AI about AI; that potential bias is disclosed in both documents.
+
 Status: EXPLORATORY — Pre-Alpha, faithful port + honestly-scoped Diamond wrapper.
 
 ## What this package is

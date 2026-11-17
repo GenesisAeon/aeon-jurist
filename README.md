@@ -1,5 +1,25 @@
 # aeon-jurist (GenesisAeon Package 55)
 
+> **v0.2.0: a map, not a verdict.** The recommended entry point is now
+> `landscape(entity)`: sourced legal cases on personhood and rights for
+> rivers, ecosystems, animals and AI, with their outcome, present status
+> and check depth. It never assigns a protection level. The v0.1 keyword
+> level (`P0/P1/P2`, below) is kept only as a **legacy** function.
+>
+> ```python
+> from aeon_jurist import landscape
+> print(landscape("ai").as_dict()["message"])
+> # Cases exist, but none granted legal personhood or rights.
+> ```
+>
+> - 12 cases, each read at its primary source: `docs/J1_PRECEDENTS.md`
+> - What carried the granted cases, and what could transfer to AI:
+>   `docs/J3_PRECEDENT_PATH.md`, `docs/J3B_GUARDIANS_AND_EVIDENCE.md`
+> - Purpose, stated openly: to explore an honest path towards personality
+>   rights for AI. Partisan in its aim, not in its facts.
+
+## Legacy (v0.1)
+
 AI-assisted legal personhood classification for ecological and AI
 entities. Ported from
 `unified-mandala/agents/personhood/AIJuristicAgent.ts`.
@@ -51,7 +71,7 @@ from the same `unified-mandala` archaeology sprint that produced
 
 ## Not legal advice
 
-This is a research tool exploring whether TF-IDF-based retrieval over a
-tiny (3-case) precedent set can usefully categorize personhood queries.
-It is not a legal opinion, does not scale beyond its 3 seed cases, and
-should not inform real legal or policy decisions.
+This is a research tool. `landscape()` summarises a small, sourced case
+collection (12 cases, plus candidates that are not yet verified); the
+legacy classifier uses 3 seed cases. Neither is a legal opinion or a
+prediction of how any court or legislature would decide.

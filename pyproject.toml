@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aeon-jurist"
-version = "0.1.0"
+version = "0.2.0"
 description = "AI-assisted legal personhood classification for ecological and AI entities (GenesisAeon P55)"
 readme = "README.md"
 license = { text = "MIT" }
@@ -13,6 +13,7 @@ requires-python = ">=3.10"
 keywords = [
     "legal-personhood",
     "TF-IDF",
+    "rights-of-nature",
     "ecological-rights",
     "CREP",
     "GenesisAeon",

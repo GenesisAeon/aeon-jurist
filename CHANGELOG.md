@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.0] - 2026-11-17 (branch j-series, local)
+
+- J0: plan "map, not a verdict" (`docs/J0_PLAN.md`), decisions by Johann recorded.
+- J1: sourced case collection `src/aeon_jurist/data/precedents_v2.json`: 12 cases read
+  at primary sources (statutes, judgments, constitution, EP resolution), 6 unverified
+  candidates kept separate; contract tests. Notable: the 2015 recognition of the orangutan
+  Sandra as "sujeto de derecho" was revoked on appeal in 2016; the Ganga/Yamuna grant is stayed.
+- J2: `landscape(entity)` returns cases with outcome, status and check depth plus a criteria
+  summary of granted cases; no protection level. Hand controls H1-H4 as tests.
+- J3/J3b: English analysis of what transfers from nature and animal cases to AI, guardian
+  models G1-G6 and reproducible evidence questions E1-E5 (law and argument kept separate).
+- The v0.1 subject-keyword level remains available unchanged but is documented as legacy.
+- 24/24 tests passing.
+
 ## [0.1.0] - 2026-07-26
 
 - Extracted from `unified-mandala/agents/personhood/AIJuristicAgent.ts`
