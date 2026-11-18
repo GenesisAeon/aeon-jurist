@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24311274.svg)](https://doi.org/10.5281/zenodo.24311274) [![PyPI](https://img.shields.io/pypi/v/aeon-jurist)](https://pypi.org/project/aeon-jurist/)
 
-> **v0.3.0: a map, not a verdict.** The recommended entry point is now
+> **v0.4.0: a map, not a verdict.** The recommended entry point is now
 > `landscape(entity)`: sourced legal cases on personhood and rights for
 > rivers, ecosystems, animals and AI, with their outcome, present status
 > and check depth. It never assigns a protection level. The v0.1 keyword

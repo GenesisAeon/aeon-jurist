@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] (J6/J7, local)
+## [0.4.0] - 2026-11-18
 
 - J7: seven sourced records added (20 cases, 15 candidates): Cecilia (Argentina 2016), Estrellita (Ecuador 2022), Kaavan (Pakistan 2020), Turag (Bangladesh 2020), Beijing Internet Court (2023), and the Wyoming and Marshall Islands DAO laws as a new entity type `software_rolle` (statutory management role, no personhood), queried via `landscape("dao")`.
 - J3 §7a: honest refinement after a targeted search for counterexamples: cultural grounding is not necessary; representation takes many forms; animal rights rest on sentience; software can hold a statutory role without rights.

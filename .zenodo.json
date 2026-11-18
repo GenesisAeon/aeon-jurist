@@ -1,6 +1,6 @@
 {
   "title": "aeon-jurist: A Map of Sourced Legal Personhood Cases for Nature, Animals and AI (GenesisAeon Package 55)",
-  "description": "<p>A map, not a verdict. <code>landscape(entity)</code> returns sourced legal cases on personhood and rights for rivers, ecosystems, animals and AI, with outcome, present status and check depth. It never assigns a protection level.</p><p>13 cases, each read at its primary source (statutes, judgments, constitution, European Parliament resolution); candidates without a read source are kept separate. Includes an English analysis of which criteria carried the granted nature cases and which could transfer to AI, guardian models drawn from existing law, and reproducible evidence questions. Law and argument are kept separate; the analysis was written by an AI (Claude, Anthropic), which is disclosed. Not legal advice.</p><p>Source and documentation: <a href=\"https://github.com/GenesisAeon/aeon-jurist\">github.com/GenesisAeon/aeon-jurist</a></p>",
+  "description": "<p>A map, not a verdict. <code>landscape(entity)</code> returns sourced legal cases on personhood and rights for rivers, ecosystems, animals and AI, with outcome, present status and check depth. It never assigns a protection level.</p><p>20 cases, each read at its primary source (statutes, judgments, constitution, European Parliament resolution); candidates without a read source are kept separate. Includes an English analysis of which criteria carried the granted nature cases and which could transfer to AI, guardian models drawn from existing law, and reproducible evidence questions. Law and argument are kept separate; the analysis was written by an AI (Claude, Anthropic), which is disclosed. Not legal advice.</p><p>Source and documentation: <a href=\"https://github.com/GenesisAeon/aeon-jurist\">github.com/GenesisAeon/aeon-jurist</a></p>",
   "creators": [
     {
       "name": "Römer, Johann",
@@ -18,7 +18,7 @@
     "GenesisAeon",
     "open-science"
   ],
-  "version": "0.3.0",
+  "version": "0.4.0",
   "communities": [
     {
       "identifier": "genesisaeon"
