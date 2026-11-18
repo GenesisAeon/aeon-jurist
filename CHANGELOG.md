@@ -1,5 +1,9 @@
 # Changelog
 
+## [Unreleased] (J6, local)
+
+- J3b §5: table of US state laws and bills excluding AI personhood (Hydrogen research round, re-read by Claude where possible): omnibus exclusions incl. nature and animals vs AI-only "non-sentience" laws.
+
 ## [0.3.0] - 2026-11-17
 
 - Case collection: Los Cedros (Ecuador Constitutional Court 1149-19-JP/21, 2021) added from the full judgment; Mar Menor entry records the Constitutional Court's confirmation (STC 142/2024). 13 cases, 4 candidates.

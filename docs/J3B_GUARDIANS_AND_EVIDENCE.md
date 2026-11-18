@@ -66,7 +66,19 @@ Found by a Gemini DeepResearch round and checked by Claude at arXiv abstract lev
 
 Reading: the effect is real enough to replicate on open weights, fragile and strongly prompt-dependent. This is the kind of independent, ground-truth evidence §3 asks for. It does not show experience or welfare; the authors of all these studies say so.
 
-**Legislatures are moving the other way.** North Dakota defines "person" so that it "does not include environmental elements, artificial intelligence, an animal, or an inanimate object" (N.D.C.C. 1-01-49, read in the official code). Similar exclusions are reported for Idaho (2022), Utah (2024) and Tennessee (2026); those texts were not read here. Note that North Dakota excludes nature and animals in the same sentence: the countertrend targets the whole "rights beyond humans" line, not only AI.
+**Legislatures are moving the other way, in two different ways.** (Research round by Hydrogen/Gemini, 18 November 2026; texts re-read by Claude where marked.)
+
+| State | Instrument | Excludes | Status | Read by Claude |
+|---|---|---|---|---|
+| North Dakota | N.D.C.C. 1-01-49: "person" "does not include environmental elements, artificial intelligence, an animal, or an inanimate object" | AI **and** nature, animals | law (2023) | yes, official code |
+| Idaho | Idaho Code § 5-346 (HB 720) | AI and nature, animals, objects | law since 1 Jul 2022 (reported) | no, server unreachable |
+| Utah | HB 249 "Utah Legal Personhood Amendments" (Utah Code § 63G-31-102) | AI and water, land, plants, animals, weather, astronomical objects (reported) | law since 1 May 2024 (reported) | bill page yes; enrolled text is a scan, not read |
+| Tennessee | Public Chapter 781 (SB 837), Tenn. Code Ann. § 1-3-105(a)(20): "Does not include artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine" | **AI only** | law, passed 8 Apr 2026, effective on becoming law | yes, official act PDF |
+| Washington | HB 2029 (2025): same list as Utah | AI and nature, animals | bill (status not checked) | yes, bill text |
+| Missouri | SCS SB 1012 (2026): AI systems "declared to be non-sentient entities"; no legal personhood | **AI only** | bill; reportedly not passed by both chambers | text yes; status no |
+| Ohio | HB 469: same "non-sentience" model as Missouri | AI only | bill in committee (reported) | no, server unreachable |
+
+Two patterns: **omnibus exclusions** (Idaho, North Dakota, Utah, Washington draft) target the whole "rights beyond humans" line, nature and animals included; **AI-specific** laws and bills (Tennessee, Missouri, Ohio) address only AI, and the "non-sentience" drafts go further by declaring by statute that AI systems have no consciousness. That is a legislature answering an open scientific question (§3) by definition, which is worth noting precisely because the evidence questions above are unresolved in both directions.
 
 ---
 *Open for a later DeepResearch round:* full-text checks of E1–E3 beyond abstracts; any independent replication of E2; existing proposals for AI ombudspersons or guardianship in legislation or academic literature; the current status of the EU AI Act regarding legal personality (candidate in J1).
