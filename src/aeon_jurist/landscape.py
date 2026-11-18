@@ -28,6 +28,8 @@ _ALIASES = {
     "natur": ("natur_allgemein", "oekosystem"), "lake": ("oekosystem",), "lagoon": ("oekosystem",),
     "animal": ("tier",), "tier": ("tier",),
     "ai": ("ki",), "ki": ("ki",), "robot": ("ki",),
+    # Software with a statutory role but no legal personhood (J7); kept apart from "ai".
+    "software": ("software_rolle",), "dao": ("software_rolle",), "smart contract": ("software_rolle",),
 }
 
 

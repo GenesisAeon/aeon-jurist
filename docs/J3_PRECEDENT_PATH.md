@@ -60,6 +60,16 @@ For path 2 to become plausible, roughly in this order:
 
 Until then, the honest near-term contribution is path 1: making the *question* of AI welfare part of law and governance, as a duty owed by humans, so that the answer can be acted on if the evidence comes in.
 
+## 7a. Update J7 (18 November 2026): what the counterexamples change
+A targeted search for counterexamples (Hydrogen research round, checked by Claude against the full texts where servers allowed) refines §3 and §4. Recorded here instead of silently rewriting the sections above.
+
+1. **Cultural grounding is not a necessary condition.** Bangladesh's Supreme Court (Appellate Division, 2020) upheld the legal status of the Turag and all rivers on secular grounds: public trust and the right to life. §3 said "usually"; that stays true, but K-CUL is a strengthening factor, not a requirement. For AI this matters, because a cultural relationship is the factor AI lacks most (§4).
+2. **Representation holds in every case, in many forms.** A dedicated guardian body (New Zealand), a state agency (Bangladesh's river commission), universal standing (Ecuador), every citizen *in loco parentis* (Sukhna Lake, secondary). The claim that holds is "someone is entitled to speak for it", not "it has its own guardian council".
+3. **For animals, sentience carries the decision, not agency.** Cecilia (Argentina 2016), Estrellita (Ecuador 2022, with a section on *sintiencia*) and Kaavan (Pakistan 2020) ground rights in the capacity to suffer and in species-specific needs. This confirms that K-AGN is not the route and sharpens K-INT: the route to interests runs through sentience. **This is the most relevant finding for AI**, because it is exactly the question the evidence lines E1 to E3 in J3b try to make testable.
+4. **Law already gives software a functional role without personhood.** Wyoming (W.S. 17-31-109, 2021) and the Marshall Islands (DAO Act 2022, § 108) vest the management of a decentralised autonomous organisation in "the smart contract, if algorithmically managed". The legal person is the LLC; the code has a role, no interests and no status of its own. It is the mirror image of the river cases: a rights-holder without agency there, an agent without rights here. The statement in §2 that every AI case "went the other way" stays correct for personhood and authorship (the Beijing Internet Court in 2023 likewise gave copyright to the human user, treating the AI as a tool), but the law is not blind to software as an actor.
+
+Revised reading of the asymmetry: legal status beyond humans has rested on **interests (for animals: sentience) plus someone entitled to speak for the entity**, often strengthened by culture, never by agency. Agency, where the law recognises it in software, comes as a role without rights.
+
 ## 8. Conclusion
 The data from J1 shows a real opening and a real limit. **The opening:** nature law proves that legal personality does not require the ability to think or act; guardianship and interests can be enough. **The limit:** for AI, the interests question is unresolved and the cultural relationship is young. The courts have so far only said that AI cannot fill roles the law reserves for humans, which is a statutory point, not a final verdict on AI status.
 

@@ -1,6 +1,6 @@
 {
   "schema": "aeon-jurist precedents v2 (J1)",
-  "stand": "2026-11-17 (J5)",
+  "stand": "2026-11-18 (J7)",
   "hinweis": "Jeder Datensatz wurde an der genannten Quelle gelesen. 'prueftiefe' sagt wie. Kandidaten ohne gelesene Primaerquelle stehen getrennt unter 'kandidaten'. Kein Rechtsrat.",
   "werte": {
     "ausgang": [
@@ -369,6 +369,188 @@
       },
       "prueftiefe": "volltext",
       "anmerkung": "Acción de protección des GAD Santa Ana de Cotacachi zugunsten des Waldes; Corte bestätigt, 7:2 (zwei votos salvados). Wendet die Rechte der Natur (Art. 71) auf ein konkretes Ökosystem an; Bergbau-Genehmigungen betroffen. K-CUL nicht geprüft (Abschnitte zur Kultur nicht gelesen)."
+    },
+    {
+      "id": "AR-CECILIA-2016",
+      "titel": "Schimpansin Cecilia: Tercer Juzgado de Garantías de Mendoza, Expte. P-72.254/15, 03.11.2016",
+      "jurisdiktion": "Argentinien",
+      "jahr": 2016,
+      "entitaetstyp": "tier",
+      "rechtsquelle": "gericht",
+      "ausgang": "gewaehrt",
+      "status_heute": "in_kraft",
+      "kriterien": {
+        "K-INT": "ja",
+        "K-REP": "ja",
+        "K-STA": "ja",
+        "K-DUT": "nein",
+        "K-CUL": "nein",
+        "K-AGN": "nein"
+      },
+      "zitat": "II.- Declarar a la chimpancé Cecilia, actualmente alojada en el zoológico de la Provincia de Mendoza, sujeto de derecho no humano. III.- Disponer el traslado del chimpancé Cecilia al Santuario de Sorocaba …",
+      "primaerquelle": {
+        "url": "https://ecojurisprudence.org/wp-content/uploads/2022/02/Argentina_Cecilia-the-Chimpanzee-case_122.pdf",
+        "art": "Urteil (Kopie, Eco Jurisprudence Monitor)",
+        "abgerufen_am": "2026-11-18"
+      },
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Habeas corpus gewährt (Antrag AFADA). Anders als Sandra (2016 aufgehoben) ist keine Aufhebung bekannt; Status 'in Kraft' nach Hydrogen-Recherche, nicht selbst nachverfolgt. Begründung über artspezifische Bedürfnisse und Empfindungsfähigkeit."
+    },
+    {
+      "id": "EC-ESTRELLITA-2022",
+      "titel": "Mona Estrellita: Corte Constitucional del Ecuador, Sentencia 253-20-JH/22",
+      "jurisdiktion": "Ecuador",
+      "jahr": 2022,
+      "entitaetstyp": "tier",
+      "rechtsquelle": "gericht",
+      "ausgang": "gewaehrt",
+      "status_heute": "in_kraft",
+      "kriterien": {
+        "K-INT": "ja",
+        "K-REP": "ja",
+        "K-STA": "ja",
+        "K-DUT": "nein",
+        "K-CUL": "strittig",
+        "K-AGN": "nein"
+      },
+      "zitat": "5.1.4. Los animales son sujetos de derechos distintos a las personas humanas … 5.1.4.1. La sintiencia en sentido lato y en sentido estricto",
+      "primaerquelle": {
+        "url": "https://esacc.corteconstitucional.gob.ec/storage/api/v1/10_DWL_FL/e2NhcnBldGE6J3RyYW1pdGUnLCB1dWlkOic3ZmMxMjVmMi1iMzZkLTRkZDQtYTM2NC1kOGNiMWIwYWViMWMucGRmJ30=",
+        "art": "Urteil, PDF der Corte Constitucional (69 S.)",
+        "abgerufen_am": "2026-11-18"
+      },
+      "prueftiefe": "volltext",
+      "anmerkung": "Tiere als Rechtssubjekte im Rahmen der Rechte der Natur; Empfindungsfähigkeit (sintiencia) zentral. Das Tier war vor der Entscheidung gestorben; Grundsatzurteil. K-CUL strittig (Rahmen Art. 71 / Pacha Mama, Begründung aber vor allem über sintiencia)."
+    },
+    {
+      "id": "PK-KAAVAN-2020",
+      "titel": "Elefant Kaavan: Islamabad High Court, W.P. No. 1155/2019 (Islamabad Wildlife Management Board v. Metropolitan Corporation Islamabad), 2020",
+      "jurisdiktion": "Pakistan",
+      "jahr": 2020,
+      "entitaetstyp": "tier",
+      "rechtsquelle": "gericht",
+      "ausgang": "gewaehrt",
+      "status_heute": "in_kraft",
+      "kriterien": {
+        "K-INT": "ja",
+        "K-REP": "ja",
+        "K-STA": "ja",
+        "K-DUT": "nein",
+        "K-CUL": "ja",
+        "K-AGN": "nein"
+      },
+      "zitat": "This Court has been called upon to recognize that animals have rights which ought to be respected or, rather, it is the duty of the human species to protect these rights for its own survival. … Kaavan is indeed suffering and is being treated in a manner that has subjected him to unnecessary pain and suffering.",
+      "primaerquelle": {
+        "url": "https://aldf.org/wp-content/uploads/2021/01/Islamabad-Wildlife-Management-Board-v-MCI-WP-No-1155-of-2019.pdf",
+        "art": "Urteil (Kopie, ALDF)",
+        "abgerufen_am": "2026-11-18"
+      },
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Rechte von Tieren anerkannt (keine Rechtspersönlichkeit), Zooschließung und Umsiedlung angeordnet. Das Urteil beginnt mit einer religiösen Begründung ('A good deed done to an animal is as meritorious as a good deed …')."
+    },
+    {
+      "id": "BD-TURAG-2020",
+      "titel": "Fluss Turag (alle Flüsse Bangladeschs): Supreme Court, Appellate Division, CPLA No. 3039/2019, bestätigt HCD W.P. 13989/2016",
+      "jurisdiktion": "Bangladesch",
+      "jahr": 2020,
+      "entitaetstyp": "fluss",
+      "rechtsquelle": "gericht",
+      "ausgang": "gewaehrt",
+      "status_heute": "in_kraft",
+      "kriterien": {
+        "K-INT": "ja",
+        "K-REP": "ja",
+        "K-STA": "ja",
+        "K-DUT": "nicht_geprueft",
+        "K-CUL": "nein",
+        "K-AGN": "nein"
+      },
+      "zitat": "(From the judgment and order dated 30.01.2019 and 03.02.2019 passed by the High Court Division in Writ Petition No. 13989 of 2016) … legal person / legal entity / living entity … It is absolutely within the domain of the Parliament.",
+      "primaerquelle": {
+        "url": "https://www.hrpb.org.bd/public/images/judgement/civil-petition-for-leave-to-appeal-no.-3039-of-2019---turag-river-living-status-case.pdf",
+        "art": "Urteil Appellate Division (Kopie, Website der Antragsteller HRPB)",
+        "abgerufen_am": "2026-11-18"
+      },
+      "prueftiefe": "volltext_kopie",
+      "anmerkung": "Status als living entity und Vormundschaft der National River Protection Commission bestätigt; nur Direktive 4 (Vorsorge-/Verursacherprinzip per Richterrecht) gestrichen. Begründung säkular (Public Trust, Grundrecht auf Leben), keine kulturelle Begründung: Gegenbeispiel zu K-CUL als Bedingung."
+    },
+    {
+      "id": "CN-BIC-2023",
+      "titel": "Li v. Liu, Beijing Internet Court, (2023) Jing 0491 Min Chu No. 11279",
+      "jurisdiktion": "China",
+      "jahr": 2023,
+      "entitaetstyp": "ki",
+      "rechtsquelle": "gericht",
+      "ausgang": "abgelehnt",
+      "status_heute": "in_kraft",
+      "kriterien": {
+        "K-INT": "nein",
+        "K-REP": "nein",
+        "K-STA": "nein",
+        "K-DUT": "nein",
+        "K-CUL": "nein",
+        "K-AGN": "nein"
+      },
+      "zitat": "Therefore, the plaintiff is the author of the picture involved and owns the copyright on it. … the plaintiff should prominently mark the AI technology or model used …",
+      "primaerquelle": {
+        "url": "https://english.bjinternetcourt.gov.cn/pdf/BeijingInternetCourtCivilJudgment112792023.pdf",
+        "art": "amtliche englische Übersetzung des Gerichts",
+        "abgerufen_am": "2026-11-18"
+      },
+      "prueftiefe": "volltext_uebersetzung",
+      "anmerkung": "Urheberrecht am KI-generierten Bild geht an den Menschen (Prompts, Parameter, Auswahl); KI nur Werkzeug. Für KI kein eigener Status ('abgelehnt' im Sinne dieser Sammlung)."
+    },
+    {
+      "id": "US-WY-DAO-2021",
+      "titel": "Wyoming Decentralized Autonomous Organization Supplement, SF0038 (2021), W.S. 17-31-109",
+      "jurisdiktion": "USA (Wyoming)",
+      "jahr": 2021,
+      "entitaetstyp": "software_rolle",
+      "rechtsquelle": "gesetz",
+      "ausgang": "gewaehrt",
+      "status_heute": "in_kraft",
+      "kriterien": {
+        "K-INT": "nein",
+        "K-REP": "nein",
+        "K-STA": "nein",
+        "K-DUT": "nein",
+        "K-CUL": "nein",
+        "K-AGN": "ja"
+      },
+      "zitat": "17-31-109. Management. Management of a decentralized autonomous organization shall be vested in its members, if member managed, or the smart contract, if algorithmically managed, unless otherwise provided in the articles of organization or operating agreement.",
+      "primaerquelle": {
+        "url": "https://wyoleg.gov/2021/Enroll/SF0038.pdf",
+        "art": "Enrolled Act No. 73, Wyoming Legislature",
+        "abgerufen_am": "2026-11-18"
+      },
+      "prueftiefe": "volltext",
+      "anmerkung": "Keine Rechtspersönlichkeit für Software: Rechtsperson ist die LLC; der Smart Contract erhält gesetzlich die Geschäftsführungsrolle. Spiegelbild der Naturfälle (Handlungsrolle ohne Rechtssubjekt). Spätere Änderungen (aktualisierbarer Vertrag, menschliches Mitglied) laut Hydrogen, nicht selbst gelesen."
+    },
+    {
+      "id": "MH-DAO-2022",
+      "titel": "Marshall Islands Decentralized Autonomous Organization Act 2022, § 108",
+      "jurisdiktion": "Marshallinseln",
+      "jahr": 2022,
+      "entitaetstyp": "software_rolle",
+      "rechtsquelle": "gesetz",
+      "ausgang": "gewaehrt",
+      "status_heute": "in_kraft",
+      "kriterien": {
+        "K-INT": "nein",
+        "K-REP": "nein",
+        "K-STA": "nein",
+        "K-DUT": "nein",
+        "K-CUL": "nein",
+        "K-AGN": "ja"
+      },
+      "zitat": "§108. Management. Management of a decentralized autonomous organization shall be vested in its members, if member managed, or the smart contract, if algorithmically managed, unless otherwise provided in the certificate of formation or limited liability company agreement.",
+      "primaerquelle": {
+        "url": "https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/2022/2022-0050/2022-0050_1.pdf",
+        "art": "Gesetzestext, Parlament der Marshallinseln",
+        "abgerufen_am": "2026-11-18"
+      },
+      "prueftiefe": "volltext",
+      "anmerkung": "Wortgleich mit Wyoming; gleiche Einordnung: Organrolle für Software, keine Rechtspersönlichkeit."
     }
   ],
   "kandidaten": [
@@ -392,6 +574,61 @@
       "id": "SA-SOPHIA-2017",
       "titel": "'Staatsbürgerschaft' des Roboters Sophia, Saudi-Arabien",
       "stand": "Keine amtliche Rechtsquelle bekannt; wahrscheinlich nur symbolisch. Nicht aufnehmen ohne amtliche Quelle."
+    },
+    {
+      "id": "CO-CHUCHO-2020",
+      "titel": "Bär Chucho: Corte Suprema AHC4806-2017 (Habeas gewährt), aufgehoben durch Corte Constitucional SU-016/20",
+      "stand": "Server blockt; laut Hydrogen 2020 aufgehoben (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "CO-PISBA-2020",
+      "titel": "Páramo de Pisba: Tribunal Administrativo de Boyacá 2018, aufgehoben durch Corte Constitucional T-285/20",
+      "stand": "Server blockt; laut Hydrogen aufgehoben (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "NZ-TARANAKI-2025",
+      "titel": "Taranaki Maunga Collective Redress Act 2025 (Te Kāhui Tupua als legal person)",
+      "stand": "legislation.govt.nz blockt; sekundär (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "CO-AMAZONIA-2018",
+      "titel": "Corte Suprema de Justicia, STC4360-2018 (kolumbianischer Amazonas als sujeto de derechos)",
+      "stand": "Quelle nicht erreichbar; sekundär (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "CA-MAGPIE-2021",
+      "titel": "Muteshekau-shipu / Magpie River: Resolutionen Innu Council of Ekuanitshit und MRC Minganie",
+      "stand": "nur Register; Resolutionstext nicht gelesen (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "IN-SUKHNA-2020",
+      "titel": "Sukhna Lake, Punjab and Haryana High Court, CWP 18253/2009 (künstlicher See als juristische Person)",
+      "stand": "nur sekundär; möglicher K-CUL-Gegenfall (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "US-LEBOR-2019",
+      "titel": "Lake Erie Bill of Rights (Toledo), für nichtig erklärt in Drewes Farms v. City of Toledo (N.D. Ohio, 27.02.2020)",
+      "stand": "Urteil nicht selbst gelesen (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "ZA-DABUS-2021",
+      "titel": "DABUS-Patent ZA 2021/03242 (CIPC, nur Formalprüfung)",
+      "stand": "sekundär; keine materielle Prüfung der Erfinderschaft (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "BO-MADRETIERRA",
+      "titel": "Bolivien, Ley 071 (2010) und Ley 300 (2012), Madre Tierra als sujeto colectivo de interés público",
+      "stand": "nicht selbst gelesen (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "EC-VILCABAMBA-2011",
+      "titel": "Corte Provincial de Loja, Juicio 11121-2011-0010 (Fluss Vilcabamba)",
+      "stand": "PDF ist ein Scan, Text nicht lesbar (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "US-NARUTO-2018",
+      "titel": "Naruto v. Slater, 888 F.3d 418 (9th Cir. 2018), Affen-Selfie: keine Klagebefugnis für Tiere",
+      "stand": "justia 403; sekundär (Hydrogen-Recherche 18.11.2026)."
     }
   ]
 }

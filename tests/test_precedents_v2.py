@@ -54,8 +54,18 @@ def test_known_statuses_are_not_flattened():
 def test_nature_cases_do_not_require_agency():
     # The asymmetry J3 builds on: granted nature cases never rest on K-AGN.
     for f in DATA["faelle"]:
-        if f["ausgang"] == "gewaehrt":
+        if f["ausgang"] == "gewaehrt" and f["entitaetstyp"] != "software_rolle":
             assert f["kriterien"]["K-AGN"] == "nein", f["id"]
+
+
+def test_j7_secular_river_and_sentience_cases():
+    # K-CUL is not a necessary condition (Turag), animal grants rest on interests, not agency
+    assert by_id("BD-TURAG-2020")["kriterien"]["K-CUL"] == "nein"
+    assert by_id("BD-TURAG-2020")["ausgang"] == "gewaehrt"
+    for i in ("AR-CECILIA-2016", "EC-ESTRELLITA-2022", "PK-KAAVAN-2020"):
+        assert by_id(i)["kriterien"]["K-INT"] == "ja" and by_id(i)["kriterien"]["K-AGN"] == "nein", i
+    for i in ("US-WY-DAO-2021", "MH-DAO-2022"):
+        assert by_id(i)["entitaetstyp"] == "software_rolle" and by_id(i)["kriterien"]["K-INT"] == "nein", i
 
 
 def test_j5_los_cedros_and_mar_menor_court_confirmation():

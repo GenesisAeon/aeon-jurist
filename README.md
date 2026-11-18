@@ -14,7 +14,7 @@
 > # Cases exist, but none granted legal personhood or rights.
 > ```
 >
-> - 13 cases, each read at its primary source: `docs/J1_PRECEDENTS.md`
+> - 20 cases, each read at its primary source: `docs/J1_PRECEDENTS.md`
 > - What carried the granted cases, and what could transfer to AI:
 >   `docs/J3_PRECEDENT_PATH.md`, `docs/J3B_GUARDIANS_AND_EVIDENCE.md`
 > - Purpose, stated openly: to explore an honest path towards personality
@@ -74,6 +74,6 @@ from the same `unified-mandala` archaeology sprint that produced
 ## Not legal advice
 
 This is a research tool. `landscape()` summarises a small, sourced case
-collection (13 cases, plus candidates that are not yet verified); the
+collection (20 cases, plus candidates that are not yet verified); the
 legacy classifier uses 3 seed cases. Neither is a legal opinion or a
 prediction of how any court or legislature would decide.

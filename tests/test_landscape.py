@@ -10,7 +10,7 @@ def ids(ls):
 
 def test_h1_ai_shows_only_non_grants_and_no_level():
     ls = landscape("ai")
-    assert set(ids(ls)) == {"EU-EP-2017", "US-DABUS-2022", "UK-DABUS-2023", "DE-DABUS-2024", "US-THALER-2025"}
+    assert set(ids(ls)) == {"EU-EP-2017", "US-DABUS-2022", "UK-DABUS-2023", "DE-DABUS-2024", "US-THALER-2025", "CN-BIC-2023"}
     assert all(c.outcome != "gewaehrt" for c in ls.cases)
     assert ls.in_force_grants == 0
     assert "none granted" in ls.message
@@ -20,9 +20,9 @@ def test_h1_ai_shows_only_non_grants_and_no_level():
 def test_h2_river_keeps_stayed_case_stayed():
     ls = landscape("river")
     rows = {c.id: c for c in ls.cases}
-    assert {"NZ-TAT-2017", "CO-T622-2016", "IN-GY-2017"} <= set(rows)
+    assert {"NZ-TAT-2017", "CO-T622-2016", "IN-GY-2017", "BD-TURAG-2020"} <= set(rows)
     assert rows["IN-GY-2017"].status_today == "ausgesetzt"
-    assert ls.in_force_grants == 2
+    assert ls.in_force_grants == 3
     assert "no longer in force" in ls.message
 
 
@@ -47,18 +47,29 @@ def test_h4_unknown_entity_gives_empty_map_not_an_analogy():
 
 def test_overturned_animal_case_is_not_a_grant():
     ls = landscape("animal")
-    assert ids(ls) == ["AR-SANDRA-2015"]
-    assert ls.cases[0].outcome == "aufgehoben"
-    assert ls.in_force_grants == 0
+    rows = {c.id: c for c in ls.cases}
+    assert rows["AR-SANDRA-2015"].outcome == "aufgehoben"
+    # J7: Cecilia, Estrellita, Kaavan are granted; Sandra must not be counted among them
+    assert ls.in_force_grants == 3
+    assert {"AR-CECILIA-2016", "EC-ESTRELLITA-2022", "PK-KAAVAN-2020"} <= set(rows)
 
 
 def test_criteria_summary_counts_only_granted_and_shows_asymmetry():
     ls = landscape("river")
-    granted = 3  # NZ, CO, IN
+    granted = 4  # NZ, CO, IN, BD
     for k, counts in ls.criteria_in_granted.items():
         assert sum(counts.values()) == granted, k
     assert ls.criteria_in_granted["K-AGN"]["nein"] == granted
     assert ls.criteria_in_granted["K-REP"]["ja"] == granted
+
+
+def test_software_role_is_separate_from_ai_and_mirrors_nature():
+    sw = landscape("dao")
+    assert {c.id for c in sw.cases} == {"US-WY-DAO-2021", "MH-DAO-2022"}
+    assert not {"US-WY-DAO-2021", "MH-DAO-2022"} & set(ids(landscape("ai")))
+    # role with agency but no own interests: the mirror image of the river cases
+    assert sw.criteria_in_granted["K-AGN"]["ja"] == 2
+    assert sw.criteria_in_granted["K-INT"]["nein"] == 2
 
 
 def test_candidates_never_appear_as_cases():

@@ -1,6 +1,10 @@
 # Changelog
 
-## [Unreleased] (J6, local)
+## [Unreleased] (J6/J7, local)
+
+- J7: seven sourced records added (20 cases, 15 candidates): Cecilia (Argentina 2016), Estrellita (Ecuador 2022), Kaavan (Pakistan 2020), Turag (Bangladesh 2020), Beijing Internet Court (2023), and the Wyoming and Marshall Islands DAO laws as a new entity type `software_rolle` (statutory management role, no personhood), queried via `landscape("dao")`.
+- J3 §7a: honest refinement after a targeted search for counterexamples: cultural grounding is not necessary; representation takes many forms; animal rights rest on sentience; software can hold a statutory role without rights.
+- 27/27 tests passing.
 
 - J3b §5: table of US state laws and bills excluding AI personhood (Hydrogen research round, re-read by Claude where possible): omnibus exclusions incl. nature and animals vs AI-only "non-sentience" laws.
 
