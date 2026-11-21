@@ -9,7 +9,7 @@ Since J2 (branch j-series) the recommended entry point is ``landscape()``:
 a map of sourced cases with outcomes and status, never a protection level.
 """
 
-__version__ = "0.5.0"
+__version__ = "0.6.0"
 
 from .classifier import Finding, PersonhoodClassifier, Query
 from .landscape import Landscape, context_records, landscape, load_precedents
