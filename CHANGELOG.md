@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] (J8, local)
+## [0.5.0] - 2026-11-21
 
 - 14 sourced context records (`kontext`, via `context_records()`): sentience statutes (UK 2022, Art. 13 TFEU, Spain, Belgium; Germany as counter-example), guardians for future generations (Wales, Hungary, Malta), legal persons without a will (foundations, Hindu idols, Guru Granth Sahib, ships in rem, Salomon). Not part of `landscape()`.
 - J3b §6: what these building blocks mean: duties, not personhood; guardians with comply-or-explain, no veto; every construction protects an externally defined core, which AI still lacks.
