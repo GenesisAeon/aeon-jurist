@@ -1,6 +1,6 @@
 {
   "schema": "aeon-jurist precedents v2 (J1)",
-  "stand": "2026-11-21 (J9)",
+  "stand": "2026-11-21 (J9/J10)",
   "hinweis": "Jeder Datensatz wurde an der genannten Quelle gelesen. 'prueftiefe' sagt wie. Kandidaten ohne gelesene Primaerquelle stehen getrennt unter 'kandidaten'. Kein Rechtsrat.",
   "werte": {
     "ausgang": [
@@ -909,6 +909,193 @@
       "prueftiefe": "volltext",
       "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude",
       "wirkung": "Generalversammlung nimmt einen Sonderbeauftragten nur zur Kenntnis; Ernennung derzeit ausgesetzt. Nicht bindend (Empfehlung nach Art. 10 UN-Charta)."
+    },
+    {
+      "id": "KY-STAR-TRUST",
+      "art": "zweckbindung_rechtsform",
+      "titel": "Cayman Islands Trusts Act (2021 Revision), Part VIII (STAR trusts), s. 100",
+      "jurisdiktion": "Cayman Islands",
+      "jahr": 1997,
+      "personenstatus": true,
+      "zitat": "The only persons who have standing to enforce a special trust are such persons, whether or not beneficiaries, as are appointed to be enforcers— (a) by or pursuant to the terms of the trust; or (b) by order of the Court.",
+      "primaerquelle": {
+        "url": "https://www.ciregistry.ky/wp-content/uploads/dlm_uploads/Trusts-Act-2021-Revision.pdf",
+        "art": "Gesetzestext (amtliches Register)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Hydrogen; Stichprobe Claude",
+      "wirkung": "Zweck wird nur durch ernannte Enforcer durchgesetzt; Begünstigte ohne Klagerecht; Zweckänderung nach Urkunde oder Gericht möglich."
+    },
+    {
+      "id": "JE-PURPOSE-TRUST",
+      "art": "zweckbindung_rechtsform",
+      "titel": "Trusts (Jersey) Law 1984, Art. 12, 13",
+      "jurisdiktion": "Jersey",
+      "jahr": 1984,
+      "personenstatus": true,
+      "zitat": "It shall be the duty of an enforcer to enforce the trust in relation to its non-charitable purposes.",
+      "primaerquelle": {
+        "url": "https://www.jerseylaw.je/laws/current/l_11_1984",
+        "art": "Gesetzestext (Jersey Legal Information Board)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Hydrogen; Stichprobe Claude",
+      "wirkung": "Nicht gemeinnütziger Zwecktrust nur gültig mit Enforcer und Nachbesetzungsregel."
+    },
+    {
+      "id": "DK-NOVO-FOUNDATION",
+      "art": "zweckbindung_rechtsform",
+      "titel": "Articles of Association of the Novo Nordisk Foundation, Art. 14",
+      "jurisdiktion": "Dänemark",
+      "jahr": 2024,
+      "personenstatus": true,
+      "zitat": "In addition to the requirements laid down in legislation, dissolution of the Foundation or any change in its objects as set out in Article 2 of these Articles of Association shall require the unanimous decision of the Board of Directors.",
+      "primaerquelle": {
+        "url": "https://novonordiskfonden.dk/en/who-we-are/articles-of-association/",
+        "art": "Satzung (Website der Stiftung)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Hydrogen; Stichprobe Claude",
+      "wirkung": "Zweckänderung nur einstimmig plus Genehmigung der Stiftungsaufsicht; Board ergänzt sich selbst."
+    },
+    {
+      "id": "DE-ZEISS-STIFTUNG",
+      "art": "zweckbindung_rechtsform",
+      "titel": "Statut der Carl-Zeiss-Stiftung (Fassung 28.08.2024), §§ 1, 5, 29",
+      "jurisdiktion": "Deutschland",
+      "jahr": 2024,
+      "personenstatus": true,
+      "zitat": "Zwecke der Stiftung sind: die Pflege der feintechnischen Industrie durch Fortführung der beiden Stiftungsunternehmen … Der Stiftungsverwaltung gehören die jeweiligen für die wissenschaftlichen Hochschulen der Länder Baden-Württemberg und Thüringen zuständigen Minister an.",
+      "primaerquelle": {
+        "url": "https://www.carl-zeiss-stiftung.de/fileadmin/mediamanager/downloads/CZS_Statut.pdf",
+        "art": "Statut (Website der Stiftung)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Hydrogen; Stichprobe Claude",
+      "wirkung": "Unternehmen dauerhaft an Stiftungszweck gebunden; Landesminister als Stiftungsverwaltung; Ewigkeitsklausel § 29."
+    },
+    {
+      "id": "US-OPENAI-DEAG-2025",
+      "art": "zweckbindung_rechtsform",
+      "titel": "Delaware Attorney General, Statement of Nonobjection, OpenAI restructuring (28.10.2025)",
+      "jurisdiktion": "USA (Delaware)",
+      "jahr": 2025,
+      "personenstatus": false,
+      "zitat": "The directors of the NFP owe fiduciary duties to the NFP, the Mission, and the public beneficiaries of the NFP in accordance with Delaware law.",
+      "primaerquelle": {
+        "url": "https://news.delaware.gov/files/2025/10/2025-10-28-OpenAI-DEAG-Statement-of-Nonobjection.pdf",
+        "art": "Behördliche Erklärung (PDF)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Hydrogen; Stichprobe Claude",
+      "wirkung": "Nonprofit hält Vetorechte über Änderungen des Gemeinwohlzwecks (Art. III) und wesentliche Verkäufe; Safety and Security Committee bleibt bei der NFP."
+    },
+    {
+      "id": "US-ANTHROPIC-LTBT",
+      "art": "zweckbindung_rechtsform",
+      "titel": "Anthropic, PBC: Long-Term Benefit Trust (SEC-Unterlagen laut Hydrogen)",
+      "jurisdiktion": "USA",
+      "jahr": 2026,
+      "personenstatus": false,
+      "zitat": "Through a special class of common stock, Class T common stock, the LTBT generally has the authority to elect and remove the Class T directors, who together will constitute a majority of the authorized members of our board of directors. (laut Hydrogen)",
+      "primaerquelle": {
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+        "art": "SEC-Prospekt (für Claude gesperrt)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "sekundaer",
+      "geprueft_durch": "Hydrogen (für Claude gesperrt); Claude ist von Anthropic und befangen",
+      "wirkung": "Trust ernennt laut Unterlage die Board-Mehrheit; weitere Stimmrechtsverhältnisse ungeprüft. Unabhängig gegenzulesen."
+    },
+    {
+      "id": "DE-MSTV-GRUNDSAETZE",
+      "art": "medienaufsicht",
+      "titel": "Medienstaatsvertrag §§ 3, 26, 51 (Fassung ab 01.12.2025)",
+      "jurisdiktion": "Deutschland (Länder)",
+      "jahr": 2025,
+      "personenstatus": false,
+      "zitat": "… haben in ihren Angeboten die Würde des Menschen zu achten und zu schützen; die sittlichen und religiösen Überzeugungen der Bevölkerung sind zu achten. (§ 3)",
+      "primaerquelle": {
+        "url": "https://www.gesetze-bayern.de/Content/Document/MStV-3",
+        "art": "Gesetzestext (BAYERN.RECHT)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent (von Claude nicht nachgeprüft)",
+      "wirkung": "Gesetzliche Programmgrundsätze; Auftrag der öffentlich-rechtlichen Sender (§ 26) mit journalistischen Standards; Aufsicht privat durch Landesmedienanstalten (§ 104), Sanktionen § 109."
+    },
+    {
+      "id": "DE-ZDF-FERNSEHRAT",
+      "art": "medienaufsicht",
+      "titel": "ZDF-Staatsvertrag §§ 19a, 20, 21",
+      "jurisdiktion": "Deutschland (Länder)",
+      "jahr": 2016,
+      "personenstatus": false,
+      "zitat": "Die Mitglieder des Fernsehrates und des Verwaltungsrates sind Sachwalter der Interessen der Allgemeinheit. Sie sind an Weisungen nicht gebunden. (§ 19a)",
+      "primaerquelle": {
+        "url": "https://www.gesetze-bayern.de/Content/Document/StVZDF-19a",
+        "art": "Gesetzestext (BAYERN.RECHT)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent (von Claude nicht nachgeprüft)",
+      "wirkung": "Pluralistisches Gremium (60 Mitglieder, 20 staatlich/staatsnah = ein Drittel) stellt Richtlinien auf und überwacht Programmgrundsätze; weisungsfrei, Inkompatibilitäten, 18 Monate Karenz."
+    },
+    {
+      "id": "DE-BVERFG-ZDF-2014",
+      "art": "medienaufsicht",
+      "titel": "BVerfG, Urteil vom 25.03.2014, 1 BvF 1/11, 1 BvF 4/11 (ZDF-Staatsvertrag), Leitsatz 2a",
+      "jurisdiktion": "Deutschland",
+      "jahr": 2014,
+      "personenstatus": false,
+      "zitat": "Der Anteil der staatlichen und staatsnahen Mitglieder darf insgesamt ein Drittel der gesetzlichen Mitglieder des jeweiligen Gremiums nicht übersteigen.",
+      "primaerquelle": {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2014/03/fs20140325_1bvf000111.html",
+        "art": "Urteil (Leitsätze)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "auszug",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude (Leitsatz 2a wörtlich)",
+      "wirkung": "Verfassungsrechtliche Unabhängigkeitsgrenze für Hütergremien: Vielfalt und Staatsferne."
+    },
+    {
+      "id": "DE-JMSTV-19",
+      "art": "medienaufsicht",
+      "titel": "Jugendmedienschutz-Staatsvertrag § 19 (Freiwillige Selbstkontrolle), §§ 14, 20",
+      "jurisdiktion": "Deutschland (Länder)",
+      "jahr": 2003,
+      "personenstatus": false,
+      "zitat": "§ 19 Einrichtungen der Freiwilligen Selbstkontrolle",
+      "primaerquelle": {
+        "url": "https://www.gesetze-bayern.de/Content/Document/JMStV-19",
+        "art": "Gesetzestext (BAYERN.RECHT)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "auszug",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude (Norm vorhanden)",
+      "wirkung": "Regulierte Selbstregulierung: staatlich anerkannte Selbstkontrolle der Branche unter Aufsicht der KJM; Anbieter wirken mit, Staat kontrolliert."
+    },
+    {
+      "id": "DE-PRESSEKODEX-2025",
+      "art": "medienaufsicht",
+      "titel": "Pressekodex, Präambel (Fassung 19.03.2025), Deutscher Presserat",
+      "jurisdiktion": "Deutschland",
+      "jahr": 2025,
+      "personenstatus": false,
+      "zitat": "Wer sich zur Einhaltung des Pressekodex verpflichtet, trägt die presseethische Verantwortung für alle redaktionellen Beiträge, unabhängig von der Art und Weise der Erstellung. Diese Verantwortung gilt auch für künstlich generierte Inhalte.",
+      "primaerquelle": {
+        "url": "https://www.presserat.de/pressekodex.html",
+        "art": "Kodex (Website des Presserats)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent (von Claude nicht nachgeprüft)",
+      "wirkung": "Reine Selbstregulierung der Branche mit Rügen; erstreckt Verantwortung ausdrücklich auf KI-generierte Inhalte."
     }
   ]
 }

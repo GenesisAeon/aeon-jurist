@@ -82,6 +82,8 @@ CONTEXT_KINDS = (
     "hueter_nicht_anwesende",
     "rechtsperson_ohne_willen",
     "regionale_rechtsentwicklung",
+    "zweckbindung_rechtsform",
+    "medienaufsicht",
 )
 
 

@@ -1,7 +1,8 @@
 # Changelog
 
-## [Unreleased] (J9, local)
+## [Unreleased] (J9/J10, local)
 
+- J10: context records for purpose-bound legal forms (Cayman STAR and Jersey purpose trusts, Novo Nordisk Foundation, Carl-Zeiss-Stiftung, Delaware AG statement on OpenAI; Anthropic LTBT unverified and flagged) and German media oversight (MStV principles, ZDF-Fernsehrat, BVerfG 2014 one-third cap, JMStV self-regulation, Pressekodex 2025 incl. AI content). J3 §5a extended with templates, limits and the knowledge-gap evidence.
 - Context records: Inter-American Court OC-32/25 (nature as subject of rights, 4:3, advisory) and the UN Declaration on Future Generations (envoy on hold); candidates Taranaki updated, Río Ranchería added. J3b §7.
 - CONTRIBUTING.md: template and rules for new records.
 - J3 §5a (argument): purpose-bound guardianship of ethical principles, grounded in public interest and independent of the question whether AI is a being.

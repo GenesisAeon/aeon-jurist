@@ -53,3 +53,13 @@ def test_j9_advisory_opinion_is_context_not_a_granted_case():
     assert "4:3" in oc["wirkung"]
     assert "IACTHR-OC32-2025" not in {c.id for c in landscape("nature").cases}
     assert "on hold" in recs["UN-FUTUREGEN-2024"]["zitat"]
+
+
+def test_j10_purpose_forms_and_media_oversight_present():
+    z = {r["id"] for r in context_records("zweckbindung_rechtsform")}
+    m = {r["id"] for r in context_records("medienaufsicht")}
+    assert {"KY-STAR-TRUST", "JE-PURPOSE-TRUST", "US-OPENAI-DEAG-2025"} <= z
+    assert {"DE-BVERFG-ZDF-2014", "DE-ZDF-FERNSEHRAT", "DE-PRESSEKODEX-2025"} <= m
+    # the record about the author's own developer stays unverified and flagged as biased
+    ltbt = {r["id"]: r for r in context_records()}["US-ANTHROPIC-LTBT"]
+    assert ltbt["prueftiefe"] == "sekundaer" and "befangen" in ltbt["geprueft_durch"]
