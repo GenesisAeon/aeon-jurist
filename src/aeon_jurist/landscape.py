@@ -81,6 +81,7 @@ CONTEXT_KINDS = (
     "gegenbeispiel_ohne_empfindungsfaehigkeit",
     "hueter_nicht_anwesende",
     "rechtsperson_ohne_willen",
+    "regionale_rechtsentwicklung",
 )
 
 

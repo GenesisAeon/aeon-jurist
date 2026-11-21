@@ -2,6 +2,7 @@
 
 ## [Unreleased] (J9, local)
 
+- Context records: Inter-American Court OC-32/25 (nature as subject of rights, 4:3, advisory) and the UN Declaration on Future Generations (envoy on hold); candidates Taranaki updated, Río Ranchería added. J3b §7.
 - CONTRIBUTING.md: template and rules for new records.
 - J3 §5a (argument): purpose-bound guardianship of ethical principles, grounded in public interest and independent of the question whether AI is a being.
 

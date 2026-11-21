@@ -1,6 +1,6 @@
 {
   "schema": "aeon-jurist precedents v2 (J1)",
-  "stand": "2026-11-21 (J8)",
+  "stand": "2026-11-21 (J9)",
   "hinweis": "Jeder Datensatz wurde an der genannten Quelle gelesen. 'prueftiefe' sagt wie. Kandidaten ohne gelesene Primaerquelle stehen getrennt unter 'kandidaten'. Kein Rechtsrat.",
   "werte": {
     "ausgang": [
@@ -588,7 +588,7 @@
     {
       "id": "NZ-TARANAKI-2025",
       "titel": "Taranaki Maunga Collective Redress Act 2025 (Te Kāhui Tupua als legal person)",
-      "stand": "legislation.govt.nz blockt; sekundär (Hydrogen-Recherche 18.11.2026)."
+      "stand": "legislation.govt.nz blockt; Inhalt laut amtlicher LINZ-Registrierungsleitlinie (Paraphrase): Te Kāhui Tupua legal person, Sprechergremium nach s 27. Auszug, Gesetzestext selbst nicht gelesen (Fable-Hilfsagent 21.11.2026)."
     },
     {
       "id": "CO-AMAZONIA-2018",
@@ -629,6 +629,11 @@
       "id": "US-NARUTO-2018",
       "titel": "Naruto v. Slater, 888 F.3d 418 (9th Cir. 2018), Affen-Selfie: keine Klagebefugnis für Tiere",
       "stand": "justia 403; sekundär (Hydrogen-Recherche 18.11.2026)."
+    },
+    {
+      "id": "CO-RANCHERIA-2024",
+      "titel": "Kolumbien, Ley 2415 de 2024 (Río Ranchería, Comisión de Guardianes), bestätigt durch Corte Constitucional C-353/2026",
+      "stand": "Gesetzestext über Universitäts-Kopie gelesen (Fable-Hilfsagent); Verfassungsgerichtsentscheidung nur über Pressemitteilung/Presse. Kandidat bis zur Primärquelle."
     }
   ],
   "kontext_hinweis": "J8: Gesetze und Einrichtungen, die keine Einzelfallentscheidung zur Rechtsstellung sind, aber die Bausteine zeigen (Empfindungsfähigkeit im Gesetz, Hüter für Nicht-Anwesende, Rechtspersonen ohne eigenen Willen). Nicht Teil von landscape().",
@@ -870,6 +875,40 @@
       "prueftiefe": "auszug",
       "geprueft_durch": "Hydrogen (von Claude nicht nachgeprüft)",
       "wirkung": "Getrennte Rechtsperson durch Eintragung; handelt nur über menschliche Organe."
+    },
+    {
+      "id": "IACTHR-OC32-2025",
+      "art": "regionale_rechtsentwicklung",
+      "titel": "Corte IDH, Opinión Consultiva OC-32/25 (Emergencia climática y derechos humanos), 29.05.2025",
+      "jurisdiktion": "Interamerikanisches System",
+      "jahr": 2025,
+      "personenstatus": false,
+      "zitat": "El reconocimiento de la Naturaleza y sus componentes como sujetos de derechos constituye un desarrollo normativo que permite reforzar la protección de la integridad y funcionalidad de los ecosistemas a largo plazo … (Punto resolutivo 7; Disienten la Jueza Nancy Hernández López, el Juez Humberto Sierra Porto y la Jueza Patricia Pérez Goldberg.)",
+      "primaerquelle": {
+        "url": "https://ecojurisprudence.org/wp-content/uploads/2025/07/IACHR-Opinion-Consultiva-OC-32-25.pdf",
+        "art": "Gutachten, Kopie des amtlichen PDF (corteidh.or.cr blockiert); zweite Kopie beim Tribunal Agroambiental Bolivien wortgleich",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext_kopie",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude (Ziff. 279–281, Tenor 7, Datum)",
+      "wirkung": "Erkennt die Natur als Rechtssubjekt als „desarrollo normativo“ an (4:3); Rechte der Natur auf ihre „procesos ecológicos esenciales“ (Ziff. 279); keine eigene Vertretung, breite Klagebefugnis (Ziff. 549), indigene Völker als „guardianes“ beschrieben (Ziff. 280). Bindungswirkung im Gutachten nicht ausdrücklich festgelegt; Aufruf zur Konventionalitätskontrolle (Ziff. 560). Daher hier Kontext, kein gewährter Einzelfall."
+    },
+    {
+      "id": "UN-FUTUREGEN-2024",
+      "art": "hueter_nicht_anwesende",
+      "titel": "Declaration on Future Generations, A/RES/79/1 Annex II, para. 32(a); Special Envoy",
+      "jurisdiktion": "Vereinte Nationen",
+      "jahr": 2024,
+      "personenstatus": false,
+      "zitat": "Take note of the Secretary-General's proposal to appoint a Special Envoy for Future Generations … the appointment of the Special Envoy for Future Generations is temporarily on hold, pending further decisions by Member States, including in the context of the UN80 initiative.",
+      "primaerquelle": {
+        "url": "https://www.un.org/pact-for-the-future/en/paragraph-32a",
+        "art": "UN-Seite zum Pakt (Text Ziff. 32(a) und Umsetzungsstand)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude",
+      "wirkung": "Generalversammlung nimmt einen Sonderbeauftragten nur zur Kenntnis; Ernennung derzeit ausgesetzt. Nicht bindend (Empfehlung nach Art. 10 UN-Charta)."
     }
   ]
 }

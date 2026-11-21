@@ -17,7 +17,7 @@ def test_every_context_record_is_sourced_and_typed():
 
 
 def test_sentience_statutes_and_guardians_grant_no_personhood():
-    for kind in ("empfindungsfaehigkeit_gesetz", "gegenbeispiel_ohne_empfindungsfaehigkeit", "hueter_nicht_anwesende"):
+    for kind in ("empfindungsfaehigkeit_gesetz", "gegenbeispiel_ohne_empfindungsfaehigkeit", "hueter_nicht_anwesende", "regionale_rechtsentwicklung"):
         recs = context_records(kind)
         assert recs, kind
         assert all(r["personenstatus"] is False for r in recs), kind
@@ -44,3 +44,12 @@ def test_context_ids_do_not_collide_and_stay_out_of_landscape():
     assert not set(ids) & case_ids
     for e in ("ai", "river", "animal", "nature", "dao"):
         assert not set(ids) & {c.id for c in landscape(e).cases}
+
+
+def test_j9_advisory_opinion_is_context_not_a_granted_case():
+    recs = {r["id"]: r for r in context_records()}
+    oc = recs["IACTHR-OC32-2025"]
+    assert oc["art"] == "regionale_rechtsentwicklung" and oc["personenstatus"] is False
+    assert "4:3" in oc["wirkung"]
+    assert "IACTHR-OC32-2025" not in {c.id for c in landscape("nature").cases}
+    assert "on hold" in recs["UN-FUTUREGEN-2024"]["zitat"]
