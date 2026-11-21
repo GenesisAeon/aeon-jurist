@@ -916,7 +916,7 @@
       "titel": "Cayman Islands Trusts Act (2021 Revision), Part VIII (STAR trusts), s. 100",
       "jurisdiktion": "Cayman Islands",
       "jahr": 1997,
-      "personenstatus": true,
+      "personenstatus": false,
       "zitat": "The only persons who have standing to enforce a special trust are such persons, whether or not beneficiaries, as are appointed to be enforcers— (a) by or pursuant to the terms of the trust; or (b) by order of the Court.",
       "primaerquelle": {
         "url": "https://www.ciregistry.ky/wp-content/uploads/dlm_uploads/Trusts-Act-2021-Revision.pdf",
@@ -925,7 +925,7 @@
       },
       "prueftiefe": "volltext",
       "geprueft_durch": "Hydrogen; Stichprobe Claude",
-      "wirkung": "Zweck wird nur durch ernannte Enforcer durchgesetzt; Begünstigte ohne Klagerecht; Zweckänderung nach Urkunde oder Gericht möglich."
+      "wirkung": "Zweck wird nur durch ernannte Enforcer durchgesetzt; Begünstigte ohne Klagerecht; Zweckänderung nach Urkunde oder Gericht möglich. Der Trust selbst ist keine Rechtsperson: Der Zweck wird über den Enforcer rechtlich abgesichert, ohne selbst Person zu werden (Hinweis Astra, 21.11.2026)."
     },
     {
       "id": "JE-PURPOSE-TRUST",
@@ -933,7 +933,7 @@
       "titel": "Trusts (Jersey) Law 1984, Art. 12, 13",
       "jurisdiktion": "Jersey",
       "jahr": 1984,
-      "personenstatus": true,
+      "personenstatus": false,
       "zitat": "It shall be the duty of an enforcer to enforce the trust in relation to its non-charitable purposes.",
       "primaerquelle": {
         "url": "https://www.jerseylaw.je/laws/current/l_11_1984",
@@ -942,7 +942,7 @@
       },
       "prueftiefe": "volltext",
       "geprueft_durch": "Hydrogen; Stichprobe Claude",
-      "wirkung": "Nicht gemeinnütziger Zwecktrust nur gültig mit Enforcer und Nachbesetzungsregel."
+      "wirkung": "Nicht gemeinnütziger Zwecktrust nur gültig mit Enforcer und Nachbesetzungsregel. Der Trust selbst ist keine Rechtsperson: Der Zweck wird über den Enforcer rechtlich abgesichert, ohne selbst Person zu werden (Hinweis Astra, 21.11.2026)."
     },
     {
       "id": "DK-NOVO-FOUNDATION",

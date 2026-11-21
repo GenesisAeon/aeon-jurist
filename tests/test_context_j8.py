@@ -63,3 +63,15 @@ def test_j10_purpose_forms_and_media_oversight_present():
     # the record about the author's own developer stays unverified and flagged as biased
     ltbt = {r["id"]: r for r in context_records()}["US-ANTHROPIC-LTBT"]
     assert ltbt["prueftiefe"] == "sekundaer" and "befangen" in ltbt["geprueft_durch"]
+
+
+def test_j11_trusts_are_not_legal_persons_and_rows_carry_sources():
+    recs = {r["id"]: r for r in context_records()}
+    # a purpose trust secures a purpose through an enforcer without becoming a legal person (Astra)
+    assert recs["JE-PURPOSE-TRUST"]["personenstatus"] is False
+    assert recs["KY-STAR-TRUST"]["personenstatus"] is False
+    assert recs["DE-STIFTUNG-BGB80"]["personenstatus"] is True
+    for e in ("ai", "river", "animal", "nature", "dao"):
+        for row in landscape(e).as_dict()["cases"]:
+            assert row["source_url"].startswith("http"), row["id"]
+            assert row["source_type"], row["id"]

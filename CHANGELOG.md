@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] (J11, local)
+
+- Correction (review by Astra): Cayman STAR and Jersey purpose trusts are not legal persons; the purpose is secured by an enforcer (`personenstatus: false`).
+- `landscape()` rows now carry `source_url` and `source_type`, so the primary source travels with every result.
+
 ## [0.6.0] - 2026-11-21
 
 - J10: context records for purpose-bound legal forms (Cayman STAR and Jersey purpose trusts, Novo Nordisk Foundation, Carl-Zeiss-Stiftung, Delaware AG statement on OpenAI; Anthropic LTBT unverified and flagged) and German media oversight (MStV principles, ZDF-Fernsehrat, BVerfG 2014 one-third cap, JMStV self-regulation, Pressekodex 2025 incl. AI content). J3 §5a extended with templates, limits and the knowledge-gap evidence.

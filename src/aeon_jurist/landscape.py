@@ -53,6 +53,8 @@ class CaseRow:
     evidence: str
     weakly_sourced: bool
     note: str
+    source_url: str = ""
+    source_type: str = ""
 
 
 @dataclass
@@ -118,6 +120,8 @@ def landscape(entity: str, data: dict[str, Any] | None = None) -> Landscape:
                 evidence=f["prueftiefe"],
                 weakly_sourced=f["prueftiefe"] in WEAK_EVIDENCE,
                 note=f.get("anmerkung", ""),
+                source_url=f["primaerquelle"]["url"],
+                source_type=f["primaerquelle"]["art"],
             )
         )
 
