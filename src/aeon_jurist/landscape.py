@@ -76,6 +76,22 @@ class Landscape:
         }
 
 
+CONTEXT_KINDS = (
+    "empfindungsfaehigkeit_gesetz",
+    "gegenbeispiel_ohne_empfindungsfaehigkeit",
+    "hueter_nicht_anwesende",
+    "rechtsperson_ohne_willen",
+)
+
+
+def context_records(kind: str | None = None, data: dict[str, Any] | None = None) -> list[dict[str, Any]]:
+    """J8 building blocks that are not case decisions: sentience statutes, guardians for
+    those who cannot speak, legal persons without a will. Kept out of ``landscape()``."""
+    data = data if data is not None else load_precedents()
+    recs = data.get("kontext", [])
+    return [r for r in recs if kind is None or r["art"] == kind]
+
+
 def landscape(entity: str, data: dict[str, Any] | None = None) -> Landscape:
     """Return the sourced case map for an entity type (e.g. "river", "ai", "animal")."""
     data = data if data is not None else load_precedents()

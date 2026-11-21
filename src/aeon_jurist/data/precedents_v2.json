@@ -1,6 +1,6 @@
 {
   "schema": "aeon-jurist precedents v2 (J1)",
-  "stand": "2026-11-18 (J7)",
+  "stand": "2026-11-21 (J8)",
   "hinweis": "Jeder Datensatz wurde an der genannten Quelle gelesen. 'prueftiefe' sagt wie. Kandidaten ohne gelesene Primaerquelle stehen getrennt unter 'kandidaten'. Kein Rechtsrat.",
   "werte": {
     "ausgang": [
@@ -629,6 +629,247 @@
       "id": "US-NARUTO-2018",
       "titel": "Naruto v. Slater, 888 F.3d 418 (9th Cir. 2018), Affen-Selfie: keine Klagebefugnis für Tiere",
       "stand": "justia 403; sekundär (Hydrogen-Recherche 18.11.2026)."
+    }
+  ],
+  "kontext_hinweis": "J8: Gesetze und Einrichtungen, die keine Einzelfallentscheidung zur Rechtsstellung sind, aber die Bausteine zeigen (Empfindungsfähigkeit im Gesetz, Hüter für Nicht-Anwesende, Rechtspersonen ohne eigenen Willen). Nicht Teil von landscape().",
+  "kontext": [
+    {
+      "id": "UK-SENTIENCE-2022",
+      "art": "empfindungsfaehigkeit_gesetz",
+      "titel": "Animal Welfare (Sentience) Act 2022",
+      "jurisdiktion": "Vereinigtes Königreich",
+      "jahr": 2022,
+      "personenstatus": false,
+      "zitat": "An Act to make provision for an Animal Sentience Committee with functions relating to the effect of government policy on the welfare of animals as sentient beings. … the Secretary of State must lay a response to the report before Parliament … three months beginning with the day on which the Committee's report is published.",
+      "primaerquelle": {
+        "url": "https://www.legislation.gov.uk/ukpga/2022/22/enacted",
+        "art": "Gesetzestext (legislation.gov.uk)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude",
+      "wirkung": "Prüfpflicht für Regierungspolitik; Ausschuss vom Minister ernannt; nur Antwortpflicht, kein Veto, keine Rechte."
+    },
+    {
+      "id": "EU-TFEU-13",
+      "art": "empfindungsfaehigkeit_gesetz",
+      "titel": "Art. 13 AEUV",
+      "jurisdiktion": "EU",
+      "jahr": 2009,
+      "personenstatus": false,
+      "zitat": "… the Union and the Member States shall, since animals are sentient beings, pay full regard to the welfare requirements of animals, while respecting … religious rites, cultural traditions and regional heritage.",
+      "primaerquelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016E013",
+        "art": "Primärrecht (EUR-Lex)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude",
+      "wirkung": "Berücksichtigungspflicht in genannten Politikfeldern; Ausnahmen für Religion, Kultur; keine Individualrechte."
+    },
+    {
+      "id": "ES-CC-333BIS-2021",
+      "art": "empfindungsfaehigkeit_gesetz",
+      "titel": "Código Civil art. 333 bis (Ley 17/2021)",
+      "jurisdiktion": "Spanien",
+      "jahr": 2021,
+      "personenstatus": false,
+      "zitat": "Los animales son seres vivos dotados de sensibilidad. Solo les será aplicable el régimen jurídico de los bienes y de las cosas en la medida en que sea compatible con su naturaleza …",
+      "primaerquelle": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-20727",
+        "art": "BOE",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude",
+      "wirkung": "Eigene Zivilrechtskategorie zwischen Sache und Person; Sorgfaltspflicht des Halters; Ersatzansprüche stehen Menschen zu."
+    },
+    {
+      "id": "BE-CC-339-2020",
+      "art": "empfindungsfaehigkeit_gesetz",
+      "titel": "Code civil, Livre 3, art. 3.39 (Loi du 4 février 2020)",
+      "jurisdiktion": "Belgien",
+      "jahr": 2020,
+      "personenstatus": false,
+      "zitat": "Les animaux sont doués de sensibilité et ont des besoins biologiques. Les dispositions relatives aux choses corporelles s'appliquent aux animaux, dans le respect des dispositions … qui les protègent …",
+      "primaerquelle": {
+        "url": "https://www.ejustice.just.fgov.be/eli/loi/2020/02/04/2020020347/justel",
+        "art": "Moniteur belge (Justel)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent (von Claude nicht nachgeprüft)",
+      "wirkung": "Eigene Kategorie, von Personen unterschieden (art. 3.38); Sachenrecht gilt hilfsweise."
+    },
+    {
+      "id": "DE-GG20A-BGB90A",
+      "art": "gegenbeispiel_ohne_empfindungsfaehigkeit",
+      "titel": "Art. 20a GG und § 90a BGB",
+      "jurisdiktion": "Deutschland",
+      "jahr": 1990,
+      "personenstatus": false,
+      "zitat": "Tiere sind keine Sachen. Sie werden durch besondere Gesetze geschützt. Auf sie sind die für Sachen geltenden Vorschriften entsprechend anzuwenden, soweit nicht etwas anderes bestimmt ist.",
+      "primaerquelle": {
+        "url": "https://www.gesetze-im-internet.de/bgb/__90a.html",
+        "art": "Gesetze im Internet",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent (Wortlaut bekannt)",
+      "wirkung": "Staatsziel bzw. Sonderstellung ohne das Wort Empfindungsfähigkeit; kein Personenstatus."
+    },
+    {
+      "id": "WLS-FGC-2015",
+      "art": "hueter_nicht_anwesende",
+      "titel": "Well-being of Future Generations (Wales) Act 2015, Part 3",
+      "jurisdiktion": "Wales",
+      "jahr": 2015,
+      "personenstatus": false,
+      "zitat": "act as a guardian of the ability of future generations to meet their needs … A public body must take all reasonable steps to follow the course of action set out in a recommendation … unless …",
+      "primaerquelle": {
+        "url": "https://www.legislation.gov.uk/anaw/2015/2/part/3",
+        "art": "Gesetzestext (legislation.gov.uk)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent; Stichprobe Claude",
+      "wirkung": "Beratung, Prüfungen, Informationsrechte, comply-or-explain; Ernennung und Entlassung durch Minister; kein Veto, keine Klagebefugnis gefunden."
+    },
+    {
+      "id": "HU-FG-OMBUDS-2011",
+      "art": "hueter_nicht_anwesende",
+      "titel": "Act CXI of 2011, § 3; Alaptörvény Art. 30(3)",
+      "jurisdiktion": "Ungarn",
+      "jahr": 2011,
+      "personenstatus": false,
+      "zitat": "… az alapvető jogok biztosa köteles ennek megfelelően eljárni, vagy az elutasítás indokairól éves beszámolójában az Országgyűlést tájékoztatni.",
+      "primaerquelle": {
+        "url": "https://net.jogtar.hu/jogszabaly?docid=a1100111.tv",
+        "art": "net.jogtar.hu (kommerzieller Verlag; amtliches njt.hu blockiert)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "auszug",
+      "geprueft_durch": "Fable-Hilfsagent (von Claude nicht nachgeprüft)",
+      "wirkung": "Stellvertreter des Grundrechtsbeauftragten; nur Vorschlagsrecht, Hauptbeauftragter muss handeln oder begründen; 2012 vom unabhängigen Amt herabgestuft."
+    },
+    {
+      "id": "MT-GFG-2012",
+      "art": "hueter_nicht_anwesende",
+      "titel": "Sustainable Development Act, Cap. 521, art. 8",
+      "jurisdiktion": "Malta",
+      "jahr": 2012,
+      "personenstatus": false,
+      "zitat": "There shall be a Guardian of Future Generations … with the aim of safeguarding inter-generational and intra-generational sustainable development in Malta.",
+      "primaerquelle": {
+        "url": "https://legislation.mt/eli/cap/521/eng/pdf",
+        "art": "Gesetzestext (legislation.mt)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Fable-Hilfsagent (von Claude nicht nachgeprüft)",
+      "wirkung": "Kommission, von Premier und Minister ernannt; Datenanfragen, Vorschläge; kein Veto gefunden."
+    },
+    {
+      "id": "DE-STIFTUNG-BGB80",
+      "art": "rechtsperson_ohne_willen",
+      "titel": "§§ 80, 84 BGB (Stiftungsrecht seit 1.7.2023)",
+      "jurisdiktion": "Deutschland",
+      "jahr": 2023,
+      "personenstatus": true,
+      "zitat": "Die Stiftung ist eine mit einem Vermögen zur dauernden und nachhaltigen Erfüllung eines vom Stifter vorgegebenen Zwecks ausgestattete, mitgliederlose juristische Person. … Der Vorstand vertritt die Stiftung gerichtlich und außergerichtlich; er hat die Stellung eines gesetzlichen Vertreters.",
+      "primaerquelle": {
+        "url": "https://www.gesetze-im-internet.de/bgb/__80.html",
+        "art": "Gesetze im Internet",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "volltext",
+      "geprueft_durch": "Hydrogen; Stichprobe Claude",
+      "wirkung": "Rechtsperson aus Zweck plus Vermögen; Vertretung durch Vorstand; staatliche Aufsicht."
+    },
+    {
+      "id": "IN-IDOL-MULLICK-1925",
+      "art": "rechtsperson_ohne_willen",
+      "titel": "Pramatha Nath Mullick v. Pradyumna Kumar Mullick, Privy Council, (1925) 52 I.A. 245",
+      "jurisdiktion": "Indien (Privy Council)",
+      "jahr": 1925,
+      "personenstatus": true,
+      "zitat": "A Hindu idol is … a 'juristic entity.' It has a juridical status with the power of suing and being sued. Its interests are attended to by the person who has the deity in his charge … on analogy … the manager of the estate of an infant heir.",
+      "primaerquelle": {
+        "url": "https://indiankanoon.org/doc/290902/",
+        "art": "Urteil (Indian Kanoon)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "sekundaer",
+      "geprueft_durch": "Hydrogen (für Claude gesperrt)",
+      "wirkung": "Gottheit als Rechtsperson; Vertreter (shebait) wie Vormund eines minderjährigen Erben; kulturelle Grundlage."
+    },
+    {
+      "id": "IN-AYODHYA-2019",
+      "art": "rechtsperson_ohne_willen",
+      "titel": "M. Siddiq v. Mahant Suresh Das (Ayodhya), Supreme Court of India, (2020) 1 SCC 1",
+      "jurisdiktion": "Indien",
+      "jahr": 2019,
+      "personenstatus": true,
+      "zitat": "Idol (Bhagwan Shri Ram Virajman) als juristische Person bestätigt, vertreten durch shebait bzw. next friend; Rechtspersönlichkeit des Tempelgrundes (Asthan Shri Ram Janmabhumi) abgelehnt (laut Hydrogen, Abschnitt J.4/N.6).",
+      "primaerquelle": {
+        "url": "https://indiankanoon.org/doc/107745042/",
+        "art": "Urteil (Indian Kanoon)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "sekundaer",
+      "geprueft_durch": "Hydrogen (für Claude gesperrt)",
+      "wirkung": "Grenze der Fiktion: Idol ja, bloßes Grundstück nein."
+    },
+    {
+      "id": "IN-SGPC-2000",
+      "art": "rechtsperson_ohne_willen",
+      "titel": "Shiromani Gurdwara Prabandhak Committee v. Som Nath Dass, (2000) 4 SCC 146",
+      "jurisdiktion": "Indien",
+      "jahr": 2000,
+      "personenstatus": true,
+      "zitat": "… these Juristic Persons arose out of necessities in the human development. In other words, they were dressed in a cloak to be recognised in law to be a legal unit.",
+      "primaerquelle": {
+        "url": "https://indiankanoon.org/doc/1478973/",
+        "art": "Urteil (Indian Kanoon)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "sekundaer",
+      "geprueft_durch": "Hydrogen (für Claude gesperrt)",
+      "wirkung": "Guru Granth Sahib als juristische Person; Begründung ausdrücklich als Rechtsfiktion aus Notwendigkeit."
+    },
+    {
+      "id": "US-THECHINA-1868",
+      "art": "rechtsperson_ohne_willen",
+      "titel": "The China, 74 U.S. (7 Wall.) 53 (1868)",
+      "jurisdiktion": "USA",
+      "jahr": 1868,
+      "personenstatus": false,
+      "zitat": "The maritime law as to the position and powers of the master, and the responsibility of the vessel, is not derived from the civil law of master and servant, nor from the common law.",
+      "primaerquelle": {
+        "url": "https://www.law.cornell.edu/supremecourt/text/74/53",
+        "art": "Urteil (LII Cornell)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "auszug",
+      "geprueft_durch": "Hydrogen; Claude (nur dieser Satz wörtlich bestätigt)",
+      "wirkung": "Schiff haftet in rem als Haftungsobjekt, keine allgemeine Rechtsperson."
+    },
+    {
+      "id": "UK-SALOMON-1897",
+      "art": "rechtsperson_ohne_willen",
+      "titel": "Salomon v. A. Salomon & Co Ltd [1897] AC 22",
+      "jurisdiktion": "Vereinigtes Königreich",
+      "jahr": 1897,
+      "personenstatus": true,
+      "zitat": "The company is at law a different person altogether from the subscribers to the memorandum …",
+      "primaerquelle": {
+        "url": "https://www.trans-lex.org/310810/_/salomon-v-salomon-co-ltd-%5B1897%5D-ac-22/",
+        "art": "Auszug (trans-lex)",
+        "abgerufen_am": "2026-11-21"
+      },
+      "prueftiefe": "auszug",
+      "geprueft_durch": "Hydrogen (von Claude nicht nachgeprüft)",
+      "wirkung": "Getrennte Rechtsperson durch Eintragung; handelt nur über menschliche Organe."
     }
   ]
 }

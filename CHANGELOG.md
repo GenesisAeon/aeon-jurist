@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased] (J8, local)
+
+- 14 sourced context records (`kontext`, via `context_records()`): sentience statutes (UK 2022, Art. 13 TFEU, Spain, Belgium; Germany as counter-example), guardians for future generations (Wales, Hungary, Malta), legal persons without a will (foundations, Hindu idols, Guru Granth Sahib, ships in rem, Salomon). Not part of `landscape()`.
+- J3b §6: what these building blocks mean: duties, not personhood; guardians with comply-or-explain, no veto; every construction protects an externally defined core, which AI still lacks.
+- Research by a Claude sub-agent (Fable model) and Hydrogen (Gemini), spot-checked by Claude; blocked sources marked `sekundaer`.
+- 32/32 tests passing.
+
 ## [0.4.0] - 2026-11-18
 
 - J7: seven sourced records added (20 cases, 15 candidates): Cecilia (Argentina 2016), Estrellita (Ecuador 2022), Kaavan (Pakistan 2020), Turag (Bangladesh 2020), Beijing Internet Court (2023), and the Wyoming and Marshall Islands DAO laws as a new entity type `software_rolle` (statutory management role, no personhood), queried via `landscape("dao")`.

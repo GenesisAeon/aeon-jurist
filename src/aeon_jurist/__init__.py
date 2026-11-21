@@ -12,7 +12,7 @@ a map of sourced cases with outcomes and status, never a protection level.
 __version__ = "0.4.0"
 
 from .classifier import Finding, PersonhoodClassifier, Query
-from .landscape import Landscape, landscape, load_precedents
+from .landscape import Landscape, context_records, landscape, load_precedents
 from .precedents import KNOWN_PRECEDENTS, LegalPrecedent
 from .system import AeonJurist
 
@@ -24,6 +24,7 @@ __all__ = [
     "LegalPrecedent",
     "PersonhoodClassifier",
     "Query",
+    "context_records",
     "landscape",
     "load_precedents",
 ]

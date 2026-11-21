@@ -80,5 +80,26 @@ Reading: the effect is real enough to replicate on open weights, fragile and str
 
 Two patterns: **omnibus exclusions** (Idaho, North Dakota, Utah, Washington draft) target the whole "rights beyond humans" line, nature and animals included; **AI-specific** laws and bills (Tennessee, Missouri, Ohio) address only AI, and the "non-sentience" drafts go further by declaring by statute that AI systems have no consciousness. That is a legislature answering an open scientific question (§3) by definition, which is worth noting precisely because the evidence questions above are unresolved in both directions.
 
+## 6. Update J8 (21 November 2026): the building blocks in statute
+Two research rounds (a Claude sub-agent on the Fable model for statutes and guardians; Hydrogen/Gemini for legal persons without a will), spot-checked by Claude at the primary sources where servers allowed. The records are in the data file under `kontext` and available via `context_records()`; they are building blocks, not case decisions, and stay out of `landscape()`.
+
+**LAW: sentience in statute creates duties, never personhood.**
+- UK Animal Welfare (Sentience) Act 2022: an Animal Sentience Committee appointed by the minister may report on whether policy has "all due regard" to animals "as sentient beings"; the government must respond to Parliament within three months. No veto, no rights.
+- Art. 13 TFEU: the EU and Member States "shall, since animals are sentient beings, pay full regard" to animal welfare in listed policy fields, with exceptions for religious rites and cultural traditions.
+- Spain (Civil Code art. 333 bis, 2021) and Belgium (Civil Code art. 3.39, 2020): animals are "dotados de sensibilidad" / "doués de sensibilité", a civil-law category between things and persons; property law applies as a fallback.
+- Counter-examples: Art. 20a of the German Basic Law and § 90a BGB ("Tiere sind keine Sachen") do not mention sentience at all.
+
+**LAW: guardians for those who cannot speak have information rights and comply-or-explain, no veto.**
+- Wales (Well-being of Future Generations Act 2015): a Commissioner who acts "as a guardian of the ability of future generations to meet their needs", can review public bodies and demand information; bodies must follow recommendations or explain why not. Appointed and dismissible by ministers.
+- Hungary: the former independent Parliamentary Commissioner for Future Generations became a deputy of the Fundamental Rights Commissioner in 2012; the deputy can only propose action, and the main Commissioner must act or explain to Parliament (secondary-quality source: commercial database, the official portal blocked access).
+- Malta: a Guardian of Future Generations appointed by the Prime Minister and a minister.
+
+**LAW: legal persons without a will work through representatives plus an externally defined core.**
+- German foundations (§§ 80, 84 BGB): a "mitgliederlose juristische Person" defined by a purpose and assets, represented by a board with the status of a statutory representative, under state supervision.
+- Hindu idols (Privy Council 1925, Ayodhya 2019): the deity is a juristic entity whose interests are attended to by a manager "on analogy … the manager of the estate of an infant heir"; in Ayodhya the idol was recognised, the bare land was not (Indian sources were blocked for Claude; secondary for us).
+- Ships (The China, 1868) are liable in rem but are not general legal persons; companies (Salomon, 1897) are separate persons that act only through human organs.
+
+**ARGUMENT.** The two rounds arrive independently at the same point. The guardian structure transfers well (mandate, information rights, publication, comply-or-explain), and independence (supermajority election, fixed term, protection from dismissal) matters at least as much as powers; Hungary shows that an ordinary law can downgrade such an office. What does not yet exist for AI is the externally defined core that every one of these constructions protects: ecological integrity, sentience, future generations, a founder's purpose, a religious dedication. Without a recognised protective core, an AI guardianship would have nothing to guard. That is again the evidence question of §3.
+
 ---
 *Open for a later DeepResearch round:* full-text checks of E1–E3 beyond abstracts; any independent replication of E2; existing proposals for AI ombudspersons or guardianship in legislation or academic literature; the current status of the EU AI Act regarding legal personality (candidate in J1).
