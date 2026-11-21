@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] (J9, local)
+
+- CONTRIBUTING.md: template and rules for new records.
+- J3 §5a (argument): purpose-bound guardianship of ethical principles, grounded in public interest and independent of the question whether AI is a being.
+
 ## [0.5.0] - 2026-11-21
 
 - 14 sourced context records (`kontext`, via `context_records()`): sentience statutes (UK 2022, Art. 13 TFEU, Spain, Belgium; Germany as counter-example), guardians for future generations (Wales, Hungary, Malta), legal persons without a will (foundations, Hindu idols, Guru Granth Sahib, ships in rem, Salomon). Not part of `landscape()`.
