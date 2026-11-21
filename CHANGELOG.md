@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] (J11, local)
+## [0.6.1] - 2026-11-21
 
 - Correction (review by Astra): Cayman STAR and Jersey purpose trusts are not legal persons; the purpose is secured by an enforcer (`personenstatus: false`).
 - `landscape()` rows now carry `source_url` and `source_type`, so the primary source travels with every result.

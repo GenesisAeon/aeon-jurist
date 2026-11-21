@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use aeon-jurist, please cite it as below."
 type: software
 title: "aeon-jurist: A Map of Sourced Legal Personhood Cases for Nature, Animals and AI (GenesisAeon P55)"
-version: "0.6.0"
+version: "0.6.1"
 doi: "10.5281/zenodo.24311274"
 date-released: "2026-11-21"
 authors:
